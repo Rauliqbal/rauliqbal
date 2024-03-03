@@ -11,4 +11,5 @@ useHead({
 </script>
 <template>
   <HomeHero/>
+  <HomeService/>
 </template>

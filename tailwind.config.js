@@ -12,13 +12,12 @@ export default {
     extend: {
       container : {
         center : true,
-        padding: '6px',
         screens: {
           sm: "512px",
           md: "720px",
           lg: "1024px",
           xl: "1060px",
-          "1440px": "1340px",
+          "1440px": "1480px",
         },
       },
       fontFamily: {
@@ -33,6 +32,9 @@ export default {
           '0%' : {transform : 'translateX(0)'},
           '100%' : {transform: 'translateX(-100%)'}
         }
+      },
+      colors: {
+        primary : '#5F65F4'
       }
     },
   },

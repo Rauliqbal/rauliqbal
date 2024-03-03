@@ -1,5 +1,3 @@
-<script setup>
-</script>
 <template>
   <div class="container bg-[#F5F7F9] rounded-3xl relative">
     <div class="body-container relative">
