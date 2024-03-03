@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body {
+    @apply py-10 font-poppins text-[#202020] rounded-3xl
+   }
+   .body-container {
+    @apply px-2 py-10 md:px-8 xl:px-14 xl:py-[60px]
+   }
+}
+@layer components {
+   .btn-primary {
+      @apply px-6 py-3 bg-white rounded-full inline-flex items-center gap-2 tracking-wide hover:bg-black hover:text-white active:scale-95 transition duration-200 ease-out
+   }
+}
+@layer utilities {
+   .desc {
+      @apply md:text-lg text-slate-500 md:tracking-wide leading-relaxed
+   }
+}
