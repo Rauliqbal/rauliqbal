@@ -2,21 +2,22 @@
 import { NAV_LINKS } from "~/data/utils";
 
 
+
 onMounted(() => {
   window.addEventListener('scroll', function () {
     let nav = this.document.querySelector("nav");
 
-    nav.classList.toggle('bg-gray-300/50', window.scrollY > 0)
+    nav.classList.toggle('bg-white', window.scrollY > 0)
     nav.classList.toggle('shadow-lg', window.scrollY > 0)
 
   })
 })
 
+
 </script>
 <template>
-  <nav
-      class="container fixed z-50 inset-x-0 top-6 p-6 rounded-2xl transition-all duration-500 backdrop-blur-md">
-      <div class="flex items-center justify-between">
+  <nav class="container fixed z-50 inset-x-0 top-2 md:top-6 p-6 rounded-2xl transition duration-500">
+    <div class="flex items-center justify-between">
         <img class="h-8 md:h-auto" src="~/assets/images/logo.svg" alt="" />
 
         <div>
@@ -39,5 +40,5 @@ onMounted(() => {
           </div>
         </div>
       </div>
-    </nav>
+  </nav>
 </template>
