@@ -169,7 +169,6 @@ export const PROJECTS = [
     ]
   }
 ]
-
 export const PRODUCTS = [
   {
      id: 1,
@@ -203,4 +202,26 @@ export const PRODUCTS = [
      type: "freemium",
      image: "https://public-files.gumroad.com/variants/akl09f4x76jnnawss4mshf1ce5ee/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301"
   }
+]
+export const NAV_LINKS = [
+  {
+    title: "home",
+    url: "/"
+  },
+  {
+    title: "about",
+    url: "/about"
+  },
+  {
+    title: "project",
+    url: "/project"
+  },
+  {
+    title: "product",
+    url: "/product"
+  },
+  {
+    title: "contact",
+    url: "/contact"
+  },
 ]

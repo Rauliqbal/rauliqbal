@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Rauliqbal - Front-End Developer',
+  title: 'Rauliqbal - FrontEnd Developer',
   meta: [
     {
       name: 'description',
