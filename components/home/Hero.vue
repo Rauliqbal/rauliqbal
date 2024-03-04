@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-[#F5F7F9] rounded-3xl relative overflow-hidden">
+  <div class="container bg-[#F5F7F9] rounded-3xl relative overflow-hidden mt-36">
     <div class="body-container relative">
       <div class="flex flex-col lg:flex-row gap-10 lg:items-center justify-between relative z-10">
         <h1 class="text-2xl md:text-4xl xl:text-6xl md:leading-normal xl:leading-tight font-viga md:max-w-[864px]">Someone who has interest and talent in Web Development and Web Design</h1>

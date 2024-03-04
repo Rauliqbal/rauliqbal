@@ -7,7 +7,7 @@
     @apply scroll-smooth;
   }
   body {
-    @apply py-10 font-poppins text-[#202020];
+    @apply font-poppins text-[#202020];
   }
   .body-container {
     @apply px-4 py-10 md:px-8 xl:px-14 xl:py-[60px];
@@ -50,4 +50,15 @@
   .product-type::after {
     box-shadow: 0 15px 0 0 #EEEEEF;
   }
+  .wrapper {
+    @apply bg-gray-50 fixed -z-10 inset-0 flex items-center justify-center;
+    clip-path: circle(0.0% at 100% 0);
+    transition: clip-path 550ms;
+  }
+  #hamburger:checked ~ .wrapper {
+    clip-path: circle(141.4% at 100% 0);
+ }
+  /* .nav-btn {
+    @apply flex items-center justify-center rounded-2xl w-14 h-14 cursor-pointer
+  } */
 }

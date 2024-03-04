@@ -1,11 +1,14 @@
 <script>
+import Navbar from './components/Navbar.vue';
+
 // import luxy from 'luxy.js'
 // luxy.init()
 </script>
 
 <template>
-  <main >
+  <Navbar/>
+  <main>
     <NuxtPage />
   </main>
-  <Footer/>
+  <Footer class="mb-6"/>
 </template>
