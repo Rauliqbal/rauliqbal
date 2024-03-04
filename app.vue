@@ -1,5 +1,10 @@
+<script>
+// import luxy from 'luxy.js'
+// luxy.init()
+</script>
+
 <template>
-  <main>
+  <main >
     <NuxtPage />
   </main>
 </template>

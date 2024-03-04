@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/image"],
+  modules: ["@nuxt/image","nuxt-swiper"],
   app: {
     head: {
       charset: 'utf-8',
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Viga&display=swap'}
       ],
       script: [
-        {src: 'https://unpkg.com/akar-icons-fonts'}
+        {src: 'https://unpkg.com/akar-icons-fonts'},
       ]
     }
   }

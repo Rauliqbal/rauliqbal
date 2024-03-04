@@ -11,5 +11,8 @@ useHead({
 </script>
 <template>
   <HomeHero/>
-  <HomeService/>
+  <LazyHomeService/>
+  <LazyHomeProject/>
+  <LazyHomeProduct/>
+  <LazyHomeContact/>
 </template>

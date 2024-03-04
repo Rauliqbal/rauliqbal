@@ -3,41 +3,51 @@
 @tailwind utilities;
 
 @layer base {
-   body {
-    @apply py-10 font-poppins text-[#202020]
-   }
-   .body-container {
-    @apply px-2 py-10 md:px-8 xl:px-14 xl:py-[60px] 
-   }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply py-10 font-poppins text-[#202020];
+  }
+  .body-container {
+    @apply px-2 py-10 md:px-8 xl:px-14 xl:py-[60px];
+  }
 }
 @layer components {
-   .btn-primary {
-      @apply px-6 py-3 bg-white rounded-full inline-flex items-center gap-2 tracking-wide hover:bg-black hover:text-white active:scale-95 transition duration-200 ease-out
-   }
-   .btn-link {
-      @apply text-primary font-medium gap-2 inline-flex items-center tracking-wider transition duration-200 ease-out
-   }
+  .btn-primary {
+    @apply px-6 py-3 bg-white rounded-full inline-flex items-center gap-2 tracking-wide hover:bg-black hover:text-white active:scale-95 transition duration-200 ease-out;
+  }
+  .btn-link {
+    @apply text-primary font-medium gap-2 inline-flex items-center tracking-wider transition duration-200 ease-out;
+  }
 }
 @layer utilities {
-   .desc {
-      @apply md:text-lg text-slate-500 md:tracking-wide leading-relaxed 
-   }
-   .section-title {
-      @apply inline-flex text-5xl font-viga text-transparent bg-white relative px-12 py-3 rounded-tl-3xl rounded-br-2xl before:content-[''] before:absolute before:bg-transparent before:rounded-tl-xl before:w-10 before:h-[45px] before:-bottom-[46px] before:left-0  after:content-[''] after:absolute after:bg-transparent after:rounded-tl-xl after:w-10 after:h-[45px] after:-right-[40px] after:top-0;
-      -webkit-text-stroke: 1px black;
-   }
-   .heading{
-      @apply font-medium text-center tracking-[0.2em] text-primary
-   }
-   .sub-heading{
-      @apply font-semibold text-2xl md:text-3xl lg:text-4xl text-center
-   }
-
-   .section-title::before {
-      box-shadow: 0 -25px 0 0 #fff;
-   }
-   .section-title::after {
-      box-shadow: 0 -25px 0 0 #fff;
-   }
+  .desc {
+    @apply md:text-lg text-slate-500 md:tracking-wide leading-relaxed;
+  }
+  .section-title {
+    @apply inline-flex text-2xl md:text-3xl tracking-wider lg:text-4xl font-viga text-transparent bg-white relative px-10 py-4 rounded-tl-3xl rounded-br-2xl before:content-[''] before:absolute before:bg-transparent before:rounded-tl-xl before:w-10 before:h-[45px] before:-bottom-[46px] before:left-0  after:content-[''] after:absolute after:bg-transparent after:rounded-tl-xl after:w-10 after:h-[45px] after:-right-[40px] after:top-0;
+    -webkit-text-stroke: 1px #6b7280;
+  }
+  .section-title::before {
+    box-shadow: 0 -25px 0 0 #fff;
+  }
+  .section-title::after {
+    box-shadow: 0 -25px 0 0 #fff;
+  }
+  .heading {
+      @apply font-medium text-center tracking-[0.2em] text-primary;
+  }
+  .sub-heading {
+    @apply font-semibold text-2xl md:text-3xl lg:text-4xl text-center;
+  }
+  .product-type {
+    @apply absolute bottom-0  -translate-x-[50%] left-[50%] bg-[#EEEEEF] px-4 py-1 rounded-t-xl before:content-[''] before:absolute before:bg-transparent before:rounded-br-lg before:w-10 before:h-[24px] before:-bottom-[0px] before:left-[-40px] after:content-[''] after:absolute after:bg-transparent after:rounded-bl-lg after:w-10 after:h-[24px] after:-bottom-[0px] after:right-[-40px]
+  }
+  .product-type::before {
+    box-shadow: 0 15px 0 0 #EEEEEF;
+  }
+  .product-type::after {
+    box-shadow: 0 15px 0 0 #EEEEEF;
+  }
 }
-

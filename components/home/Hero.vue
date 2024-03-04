@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-[#F5F7F9] rounded-3xl relative">
+  <div class="container bg-[#F5F7F9] rounded-3xl relative overflow-hidden">
     <div class="body-container relative">
       <div class="flex flex-col lg:flex-row gap-10 lg:items-center justify-between relative z-10">
         <h1 class="text-2xl md:text-4xl xl:text-6xl md:leading-normal xl:leading-tight font-viga md:max-w-[864px]">Someone who has interest and talent in Web Development and Web Design</h1>
@@ -20,7 +20,7 @@
       <img src="~/assets/images/shapes.png" class="absolute h-[280px] md:h-[320px] lg:h-[400px] xl-[500px] -right-1 bottom-40 lg:top-0">
 
       <div class="flex items-center justify-between mt-10 relative">
-        <Button class="btn-primary" url="test" title="EXPLORE MORE" icon="ai-arrow-down-right"/>
+        <Button class="btn-primary" url="#service" title="EXPLORE MORE" icon="ai-arrow-down-right"/>
         <p class="desc max-w-[617px] hidden lg:block">I am Rauliqbal, a Front-End Developer and UI/UX Designer who has a passion for building website applications that are responsive, have a cool appearance, and are easy to visit.</p>
       </div>
 
