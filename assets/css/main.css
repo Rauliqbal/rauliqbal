@@ -10,7 +10,7 @@
     @apply py-10 font-poppins text-[#202020];
   }
   .body-container {
-    @apply px-2 py-10 md:px-8 xl:px-14 xl:py-[60px];
+    @apply px-4 py-10 md:px-8 xl:px-14 xl:py-[60px];
   }
 }
 @layer components {

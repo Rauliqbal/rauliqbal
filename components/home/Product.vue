@@ -11,7 +11,7 @@ import { PRODUCTS } from '~/data/utils';
       <div class="mt-14">
         <h3 class="heading">OUR PRODUCTS</h3>
         <h4 class="sub-heading mt-3">Support me by buy my product</h4>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+        <div class="grid lg:grid-cols-3 gap-8 mt-10">
           <div class="flex flex-col rounded-2xl overflow-hidden" v-for="product in PRODUCTS.slice(0, 3)">
             <div class="relative">
               <img class="w-full h-64 md:h-72 object-cover" :src="product.image" :alt="product.title">
