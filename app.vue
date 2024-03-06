@@ -1,5 +1,4 @@
-<script>
-import Navbar from './components/Navbar.vue';
+<script setup>
 
 // import luxy from 'luxy.js'
 // luxy.init()
@@ -7,8 +6,8 @@ import Navbar from './components/Navbar.vue';
 
 <template>
   <Navbar/>
-  <main>
-    <NuxtPage />
+  <main id="smooth-wrapper">
+    <NuxtPage id="smooth-content"/>
   </main>
   <Footer class="mb-6"/>
 </template>

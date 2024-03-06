@@ -10,8 +10,8 @@ export default {
   ],
   theme: {
     extend: {
-      container : {
-        center : true,
+      container: {
+        center: true,
         screens: {
           sm: "512px",
           md: "720px",
@@ -21,21 +21,21 @@ export default {
         },
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        viga : ['Viga', 'sans-serif']
+        poppins: ["Poppins", "sans-serif"],
+        viga: ["Viga", "sans-serif"],
       },
       animation: {
-        'loopText' : 'loopRun 18s infinite linear'
+        loopText: "loopRun 18s infinite linear",
       },
       keyframes: {
-        'loopRun' : {
-          '0%' : {transform : 'translateX(0)'},
-          '100%' : {transform: 'translateX(-100%)'}
-        }
+        loopRun: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
       colors: {
-        primary : '#5F65F4'
-      }
+        primary: "#5F65F4",
+      },
     },
   },
   plugins: [],

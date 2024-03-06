@@ -9,17 +9,24 @@ onMounted(() => {
 
     nav.classList.toggle('bg-white', window.scrollY > 0)
     nav.classList.toggle('shadow-lg', window.scrollY > 0)
-
   })
 })
+
+const showHide = function() {
+      document.getElementById('hamburger').checked =false 
+    }
+
+
+
 
 
 </script>
 <template>
-  <nav class="container fixed z-50 inset-x-0 top-2 md:top-6 p-6 rounded-2xl transition duration-500">
+  <nav class="container fixed z-50 inset-x-0 top-2 md:top-3 p-6 rounded-2xl transition duration-700">
     <div class="flex items-center justify-between">
-        <img class="h-8 md:h-auto" src="~/assets/images/logo.svg" alt="" />
-
+        <NuxtLink to="/">
+          <img class="h-8 md:h-auto" src="~/assets/images/logo.svg" alt="" />
+        </NuxtLink>
         <div>
           <input class="hidden peer" type="checkbox" id="hamburger" />
           <label class="nav-btn z-50 cursor-pointer" for="hamburger">
@@ -33,6 +40,7 @@ onMounted(() => {
                   class="text-3xl font-semibold tracking-wide uppercase group-hover:text-gray-300 hover:!text-slate-900 transition duration-500 ease-out"
                   :to="link.url"
                   v-for="link in NAV_LINKS"
+                  @click="showHide()"
                   >{{ link.title }}</NuxtLink
                 >
               </div>
