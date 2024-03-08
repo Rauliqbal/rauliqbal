@@ -1,13 +1,7 @@
-<script setup>
-
-// import luxy from 'luxy.js'
-// luxy.init()
-</script>
-
 <template>
-  <Navbar/>
-  <main id="smooth-wrapper">
-    <NuxtPage id="smooth-content"/>
+  <Navbar />
+  <main ref="container" data-scroll-container>
+    <NuxtPage />
   </main>
-  <Footer class="mb-6"/>
+  <Footer class="mb-6" />
 </template>
