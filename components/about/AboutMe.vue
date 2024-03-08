@@ -45,10 +45,10 @@ import { SERVICES } from "~/data/utils";
                 </span>
                 and <span class="text-primary font-medium">UI Designer,</span> I
                 am used to making projects with
-                <span class="text-emerald-500 font-medium">Vue JS </span>,
-                <span class="text-blue-500 font-medium">React JS</span> and
-                <span class="text-cyan-500 font-medium"> Tailwind CSS, </span> I
-                use <span class="text-gray-800 font-medium">Git </span> as
+                <span class="text-primary font-medium">Vue JS </span>,
+                <span class="text-primary font-medium">React JS</span> and
+                <span class="text-primary font-medium"> Tailwind CSS, </span> I
+                use <span class="text-primary font-medium">Git </span> as
                 version control and github to store my project source code.
               </p>
               <p class="desc mt-6">
@@ -63,12 +63,18 @@ import { SERVICES } from "~/data/utils";
                 <span class="text-primary font-medium">seek new things</span>.
               </p>
               <p class="desc mt-6">
-                I am able to work in a team well, honestly, hardworking and
-                responsible. Currently looking for a job as Front End Developer
+                I am able to work in a team
+                <span class="text-primary font-medium">well</span>,
+                <span
+                  class="text-primary font-medium"
+                >
+                  honestly</span
+                >,
+                <span class="text-primary font-medium">hardworking </span> and
+                <span class="text-primary font-medium">responsible</span>. Currently looking for a job as Front End Developer
                 in a company.
               </p>
-            </div>
-          </div>
+            </div></div>
         </div>
       </div>
     </div>
