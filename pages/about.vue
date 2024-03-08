@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "About - FrontEnd Developer",
+  title: "About - Rauliqbal",
 });
 </script>
 

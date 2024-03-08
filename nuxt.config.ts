@@ -30,5 +30,5 @@ export default defineNuxtConfig({
 
     pageTransition: { name: "page", mode: "out-in" },
   },
-  // plugins: ['~/plugins/locomotiveScroll.js']
+  plugins: [{ src: "~/plugins/luxy-scroll.js", mode: "client" }],
 });
