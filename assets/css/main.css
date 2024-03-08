@@ -28,7 +28,7 @@
 
 @layer utilities {
   .desc {
-    @apply md:text-lg text-slate-500 md:tracking-wide leading-relaxed;
+    @apply md:text-lg text-slate-600 md:tracking-wide leading-relaxed;
   }
 
   .section-title {
@@ -64,22 +64,26 @@
     box-shadow: 0 15px 0 0 #eeeeef;
   }
 
+  .about-title {
+    @apply absolute bottom-0 -translate-x-[50%] left-[50%] bg-[#F5F7F9] px-4 py-1 rounded-t-xl before:content-[''] before:absolute before:bg-transparent before:rounded-br-xl before:w-10 before:h-[24px] before:-bottom-[0px] before:left-[-40px] after:content-[''] after:absolute after:bg-transparent after:rounded-bl-xl after:w-10 after:h-[24px] after:-bottom-[0px] after:right-[-40px];
+  }
+
+  .about-title:before {
+    box-shadow: 0 15px 0 0 #f5f7f9;
+  }
+
+  .about-title::after {
+    box-shadow: 0 15px 0 0 #f5f7f9;
+  }
+
   .wrapper {
     @apply bg-gray-50 fixed -z-10 inset-0 flex items-center justify-center;
     clip-path: circle(0% at 100% 0);
     transition: clip-path 650ms;
   }
 
-  #hamburger:checked~.wrapper {
+  #hamburger:checked ~ .wrapper {
     clip-path: circle(141.4% at 100% 0);
-  }
-
-  .jarallax {
-    @apply relative z-0;
-  }
-
-  .jarallax>.jarallax-img {
-    @apply absolute object-cover top-0 left-0 w-full h-full -z-10;
   }
 
   /* .nav-btn {
