@@ -27,6 +27,8 @@ export default defineNuxtConfig({
         { src: "https://min30327.github.io/luxy.js/dist/js/luxy.js" },
       ],
     },
+
+    pageTransition: { name: "page", mode: "out-in" },
   },
   // plugins: ['~/plugins/locomotiveScroll.js']
 });

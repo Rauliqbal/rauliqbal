@@ -11,7 +11,7 @@ import { SERVICES } from "~/data/utils";
 
       <div class="mt-14">
         <div class="max-w-5xl mx-auto mt-10">
-          <div class="grid lg:grid-cols-2 gap-8 items-center">
+          <div class="grid lg:grid-cols-2 gap-10 items-center">
             <div class="relative">
               <img
                 class="rounded-2xl"
@@ -20,11 +20,17 @@ import { SERVICES } from "~/data/utils";
               />
 
               <div
+                class="absolute -right-2 -translate-y-[50%] top-[50%] bg-[#F5F7F9] px-4 py-2 rounded-t-xl -rotate-90"
+              >
+                <p class="uppercase text-gray-700 about-title text-nowrap">
+                  ui/ux Designer
+                </p>
+              </div>
+
+              <div
                 class="absolute bottom-0 -translate-x-[50%] left-[50%] bg-[#F5F7F9] px-4 py-2 rounded-t-xl"
               >
-                <p
-                  class="uppercase text-lg text-gray-500 about-title font-semibold text-nowrap"
-                >
+                <p class="uppercase text-gray-700 about-title text-nowrap">
                   FRONT-END DEVELOPER
                 </p>
               </div>

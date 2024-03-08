@@ -12,9 +12,11 @@ useHead({
 </script>
 
 <template>
-  <HomeHero />
-  <LazyHomeService />
-  <LazyHomeProject />
-  <LazyHomeProduct />
-  <LazyHomeContact />
+  <main>
+    <HomeHero />
+    <HomeService />
+    <HomeProject />
+    <HomeProduct />
+    <HomeContact />
+  </main>
 </template>

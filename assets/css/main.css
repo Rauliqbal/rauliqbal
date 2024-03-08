@@ -65,7 +65,7 @@
   }
 
   .about-title {
-    @apply absolute bottom-0 -translate-x-[50%] left-[50%] bg-[#F5F7F9] px-4 py-1 rounded-t-xl before:content-[''] before:absolute before:bg-transparent before:rounded-br-xl before:w-10 before:h-[24px] before:-bottom-[0px] before:left-[-40px] after:content-[''] after:absolute after:bg-transparent after:rounded-bl-xl after:w-10 after:h-[24px] after:-bottom-[0px] after:right-[-40px];
+    @apply absolute bottom-0 font-light text-base tracking-wide -translate-x-[50%] left-[50%] bg-[#F5F7F9] px-6 py-1 rounded-t-xl before:content-[''] before:absolute before:bg-transparent before:rounded-br-xl before:w-10 before:h-[24px] before:-bottom-[0px] before:left-[-40px] after:content-[''] after:absolute after:bg-transparent after:rounded-bl-xl after:w-10 after:h-[24px] after:-bottom-[0px] after:right-[-40px];
   }
 
   .about-title:before {
