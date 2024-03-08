@@ -26,6 +26,12 @@ export default defineNuxtConfig({
         { src: "https://unpkg.com/akar-icons-fonts" },
         { src: "https://min30327.github.io/luxy.js/dist/js/luxy.js" },
       ],
+      meta: [
+        {
+          name: "google-site-verification",
+          content: "i2o9Ko6wWQ0KRBehPhyZn6nhOO4xJHHgupBwP4r-tW8",
+        },
+      ],
     },
 
     pageTransition: { name: "page", mode: "out-in" },
