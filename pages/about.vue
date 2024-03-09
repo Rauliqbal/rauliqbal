@@ -5,5 +5,10 @@ useHead({
 </script>
 
 <template>
-  <AboutMe />
+  <main>
+    <AboutMe />
+    <!-- <AboutEducation /> -->
+    <!-- <AboutSkill /> -->
+    <AboutCertificate />
+  </main>
 </template>

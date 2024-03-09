@@ -82,7 +82,7 @@
     transition: clip-path 650ms;
   }
 
-  #hamburger:checked ~ .wrapper {
+  #hamburger:checked~.wrapper {
     clip-path: circle(141.4% at 100% 0);
   }
 

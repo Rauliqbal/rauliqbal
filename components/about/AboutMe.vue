@@ -65,16 +65,31 @@ import { SERVICES } from "~/data/utils";
               <p class="desc mt-6">
                 I am able to work in a team
                 <span class="text-primary font-medium">well</span>,
-                <span
-                  class="text-primary font-medium"
-                >
-                  honestly</span
-                >,
+                <span class="text-primary font-medium"> honestly</span>,
                 <span class="text-primary font-medium">hardworking </span> and
-                <span class="text-primary font-medium">responsible</span>. Currently looking for a job as Front End Developer
-                in a company.
+                <span class="text-primary font-medium">responsible</span>.
+                Currently looking for a job as Front End Developer in a company.
               </p>
-            </div></div>
+            </div>
+          </div>
+          <hr class="my-12" />
+
+          <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="flex items-center justify-center gap-8">
+              <h5 class="text-5xl md:text-7xl mb-1 font-viga">03</h5>
+              <p class="text-slate-500 font-light tracking-wider">
+                YEARS <br />
+                EXPERIENCE
+              </p>
+            </div>
+            <div class="flex items-center justify-center gap-8">
+              <h5 class="text-5xl md:text-7xl mb-1 font-viga">50+</h5>
+              <p class="text-slate-500 font-light tracking-wider">
+                COMPLETED <br />
+                PROJECTS
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

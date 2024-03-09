@@ -1,15 +1,37 @@
+export const NAV_LINKS = [
+  {
+    title: "home",
+    url: "/",
+  },
+  {
+    title: "about",
+    url: "/about",
+  },
+  {
+    title: "project",
+    url: "/project",
+  },
+  {
+    title: "product",
+    url: "/product",
+  },
+  {
+    title: "contact",
+    url: "/contact",
+  },
+];
 export const SERVICES = [
   {
     title: "Web Development",
     desc: "Create your amazing idea in websites, full interaction with responsive views.",
-    icon: 'developer.svg'
+    icon: "developer.svg",
   },
   {
     title: "UI/UX Designer",
     desc: "Create eye-catching and powerful mobile apps with a focus on User.",
-    icon: 'designer.svg'
-  }
-]
+    icon: "designer.svg",
+  },
+];
 export const PROJECTS = [
   {
     title: "Anonime - Streaming Anime",
@@ -18,10 +40,7 @@ export const PROJECTS = [
     url: "https://anonime-react.vercel.app/",
     type: "Web App",
     source_code: "https://github.com/Rauliqbal/anonime",
-    tech: [
-      {icon: "react-icon.svg" },
-      {icon: "tailwind-icon.svg" }
-    ]
+    tech: [{ icon: "react-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Travel Web - Landing Page",
@@ -30,10 +49,7 @@ export const PROJECTS = [
     url: "https://travel-landingpage-iota.vercel.app/",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/travel-landingpage",
-    tech: [
-      { "icon": "html-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-    ]
+    tech: [{ icon: "html-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Website Blog",
@@ -42,10 +58,7 @@ export const PROJECTS = [
     url: "https://simple-blog-opal-nine.vercel.app/",
     type: "Blog",
     source_code: "https://github.com/Rauliqbal/simple-blog",
-    tech: [
-      { "icon": "astro-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-    ]
+    tech: [{ icon: "astro-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Creative Agency Website - Landing Page",
@@ -54,9 +67,7 @@ export const PROJECTS = [
     url: "https://sukode.vercel.app",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/creative-studio",
-    tech: [
-      { "icon": "html-icon.svg" }
-    ]
+    tech: [{ icon: "html-icon.svg" }],
   },
   {
     title: "Cozy App - Find Cozy House",
@@ -65,9 +76,7 @@ export const PROJECTS = [
     url: "https://github.com/Rauliqbal/cozy-app",
     type: "Application",
     source_code: "https://github.com/Rauliqbal/cozy-app",
-    tech: [
-      { "icon": "flutter-icon.svg" }
-    ]
+    tech: [{ icon: "flutter-icon.svg" }],
   },
   {
     title: "MOVIERAA - Sreaming Movie & TV Shows",
@@ -76,11 +85,7 @@ export const PROJECTS = [
     url: "https://movieraa.vercel.app/",
     type: "Web Dev",
     source_code: "https://github.com/Rauliqbal/movieraa",
-    tech: [
-      { "icon": "vue-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-
-    ]
+    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "My Mushaf - Al Qur'an Digital App",
@@ -89,9 +94,7 @@ export const PROJECTS = [
     url: "https://github.com/Rauliqbal/my_mushaf-app",
     type: "Application",
     source_code: "https://github.com/Rauliqbal/my_mushaf-app",
-    tech: [
-      { "icon": "flutter-icon.svg" }
-    ]
+    tech: [{ icon: "flutter-icon.svg" }],
   },
   {
     title: "BeLife - Landing Page",
@@ -100,11 +103,7 @@ export const PROJECTS = [
     url: "https://belife-landingpage.vercel.app/",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/belife-landingpage",
-    tech: [
-      { "icon": "react-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-
-    ]
+    tech: [{ icon: "react-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Zullkit - Store UI KIT",
@@ -113,11 +112,7 @@ export const PROJECTS = [
     url: "https://zullkit-app.netlify.app/",
     type: "Web Dev",
     source_code: "https://github.com/Rauliqbal/zullkit-app",
-    tech: [
-      { "icon": "vue-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-
-    ]
+    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "My Mushaf - Al Qur'an Digital",
@@ -126,10 +121,7 @@ export const PROJECTS = [
     url: "https://mymushaf.vercel.app/",
     type: "Web App",
     source_code: "https://github.com/Rauliqbal/My_mushaf",
-    tech: [
-      { "icon": "vue-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-    ]
+    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "FurniLux - Best Furniture",
@@ -138,11 +130,7 @@ export const PROJECTS = [
     url: "https://furnilux.vercel.app/",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/furnilux-frontend",
-    tech: [
-      { "icon": "vue-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-
-    ]
+    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Lentera House - Landing Page",
@@ -151,11 +139,7 @@ export const PROJECTS = [
     url: "https://lentera-house-landingpage.vercel.app/",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/lentera-house-landingpage",
-    tech: [
-      { "icon": "vue-icon.svg" },
-      { "icon": "tailwind-icon.svg" }
-
-    ]
+    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
     title: "Cafe Street - Landing Page Design",
@@ -164,64 +148,112 @@ export const PROJECTS = [
     url: "https://www.figma.com/community/file/1138256358581554095",
     type: "UI Design",
     source_code: "https://www.figma.com/community/file/1138256358581554095",
-    tech: [
-      { "icon": "figma-icon.svg" }
-    ]
-  }
-]
+    tech: [{ icon: "figma-icon.svg" }],
+  },
+];
 export const PRODUCTS = [
   {
-     id: 1,
-     url: "https://www.uplabs.com/posts/furnilux-web-landingpage",
-     name: "furnilux web landing page",
-     source: "uplabs",
-     type: "premium",
-     image: "https://assets.materialup.com/uploads/1d56eb98-b6c6-416b-b613-ecdfe0e75abb/preview.png"
+    id: 1,
+    url: "https://www.uplabs.com/posts/furnilux-web-landingpage",
+    name: "furnilux web landing page",
+    source: "uplabs",
+    type: "premium",
+    image:
+      "https://assets.materialup.com/uploads/1d56eb98-b6c6-416b-b613-ecdfe0e75abb/preview.png",
   },
   {
-     id: 2,
-     url: "https://azurakit.vercel.app/product/g6eKXLEcnDvgwbKbzP0EOw==",
-     name: "Cafe Street - E Commerce Landing Page",
-     source: "AzuraKit",
-     type: "premium",
-     image: "https://public-files.gumroad.com/variants/uau1r8cpomxk5n965vf5ml5gsq5p/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301"
+    id: 2,
+    url: "https://azurakit.vercel.app/product/g6eKXLEcnDvgwbKbzP0EOw==",
+    name: "Cafe Street - E Commerce Landing Page",
+    source: "AzuraKit",
+    type: "premium",
+    image:
+      "https://public-files.gumroad.com/variants/uau1r8cpomxk5n965vf5ml5gsq5p/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301",
   },
   {
-     id: 3,
-     url: "https://azurakit.vercel.app/product/y7054M5z0aNobKP9qMzPNA==",
-     name: "Personal Portfolio Website - Landing Page",
-     source: "AzuraKit",
-     type: "freemium",
-     image: "https://public-files.gumroad.com/variants/icbuqy0i0tgiygb9h31y6s8nt1ih/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301"
+    id: 3,
+    url: "https://azurakit.vercel.app/product/y7054M5z0aNobKP9qMzPNA==",
+    name: "Personal Portfolio Website - Landing Page",
+    source: "AzuraKit",
+    type: "freemium",
+    image:
+      "https://public-files.gumroad.com/variants/icbuqy0i0tgiygb9h31y6s8nt1ih/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301",
   },
   {
-     id: 4,
-     url: "https://azurakit.vercel.app/product/DEmTK1qQqBqRsBe2ynD9gg==",
-     name: "Let's Food UI Kit - E Commerce Landing Page Design",
-     source: "AzuraKit",
-     type: "freemium",
-     image: "https://public-files.gumroad.com/variants/akl09f4x76jnnawss4mshf1ce5ee/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301"
-  }
-]
-export const NAV_LINKS = [
+    id: 4,
+    url: "https://azurakit.vercel.app/product/DEmTK1qQqBqRsBe2ynD9gg==",
+    name: "Let's Food UI Kit - E Commerce Landing Page Design",
+    source: "AzuraKit",
+    type: "freemium",
+    image:
+      "https://public-files.gumroad.com/variants/akl09f4x76jnnawss4mshf1ce5ee/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301",
+  },
+];
+export const STUDY = [
   {
-    title: "home",
-    url: "/"
+    title: "MTs Al - Imaroh",
+    since: "2017 - 2019",
+    faculty : "Junior High School"
+
   },
   {
-    title: "about",
-    url: "/about"
+    title: "SMK 11 Maret",
+    since: "2019 - 2021",
+    faculty : "Computer and Network Engineering"
+  },
+];
+export const COURSE = [
+  {
+    image: "dicoding.jpg",
+    title: "Belajar Dasar Pemrograman Web",
+    publish: "Dicoding",
+    certificate: "dasarweb.webp",
+    since : "2021"
   },
   {
-    title: "project",
-    url: "/project"
+    image: "buildwithangga.jpg",
+    title: "Full-Stack Website Designer",
+    publish: "BuildWith Angga",
+    certificate: "fullstackwebdesigner.webp",
+    since : "2021"
+
   },
   {
-    title: "product",
-    url: "/product"
+    image: "progate.jpg",
+    title: "Dasar Git",
+    publish: "Progate",
+    certificate: "git.webp",
+    since : "2021"
+
   },
   {
-    title: "contact",
-    url: "/contact"
+    image: "dicoding.jpg",
+    title: "Front-End Web Pemula",
+    publish: "Dicoding",
+    certificate: "frontendpemula.webp",
+    since : "2022"
+
   },
-]
+  {
+    image: "buildwithangga.jpg",
+    title: "Front-End Developer : Mastering Vue JS 3",
+    publish: "BuildWith Angga",
+    certificate: "btcmpvue3.webp",
+    since : "2022"
+
+  },
+  {
+    image: "digitalent.jpg",
+    title: "Junior Web Developer 2023",
+    publish: "Digital Talent Scholarship",
+    certificate: "jwd.webp",
+    since : "2023"
+  },
+  {
+    image: "dicoding.jpg",
+    title: "Belajar Web Dengan React JS",
+    publish: "Dicoding",
+    certificate: "jwd.webp",
+    since : "2023"
+  },
+];

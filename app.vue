@@ -2,6 +2,7 @@
 
 <template>
   <div>
+    <div id="progress"></div>
     <Navbar />
     <div id="luxy">
       <NuxtPage />

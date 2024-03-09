@@ -34,7 +34,7 @@ const showHide = function() {
           </label>
           <div class="wrapper">
             <div class="flex justify-between relative">
-              <h6 class="hidden md:block text-9xl font-bold text-gray-200 -rotate-90 absolute lg:-left-[24.5rem] -left-[22.5rem] translate-y-[4.5rem]">MENU</h6>
+              <p class="hidden md:block text-9xl font-bold text-gray-200 -rotate-90 absolute lg:-left-[24.5rem] -left-[22.5rem] translate-y-[4.5rem]">MENU</p>
               <div class="flex flex-col items-center gap-6 group px-10">
                 <NuxtLink
                   class="text-3xl font-semibold tracking-wide uppercase group-hover:text-gray-300 hover:!text-slate-900 transition duration-500 ease-out"
