@@ -74,7 +74,7 @@ import { SERVICES } from "~/data/utils";
           </div>
           <hr class="my-12" />
 
-          <div class="grid md:grid-cols-2 gap-10 items-center">
+          <div class="grid md:grid-cols-3 gap-10 items-center">
             <div class="flex items-center justify-center gap-8">
               <h5 class="text-5xl md:text-7xl mb-1 font-viga">03</h5>
               <p class="text-slate-500 font-light tracking-wider">
@@ -87,6 +87,13 @@ import { SERVICES } from "~/data/utils";
               <p class="text-slate-500 font-light tracking-wider">
                 COMPLETED <br />
                 PROJECTS
+              </p>
+            </div>
+            <div class="flex items-center justify-center gap-8">
+              <h5 class="text-5xl md:text-7xl mb-1 font-viga">07</h5>
+              <p class="text-slate-500 font-light tracking-wider">
+                CERTIFICATE <br />
+                AWARDS
               </p>
             </div>
           </div>

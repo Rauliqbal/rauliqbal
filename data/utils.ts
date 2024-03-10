@@ -192,68 +192,63 @@ export const PRODUCTS = [
 export const STUDY = [
   {
     title: "MTs Al - Imaroh",
-    since: "2017 - 2019",
-    faculty : "Junior High School"
-
+    year: "2017 - 2019",
+    faculty: "Junior High School",
   },
   {
     title: "SMK 11 Maret",
-    since: "2019 - 2021",
-    faculty : "Computer and Network Engineering"
+    year: "2019 - 2021",
+    faculty: "Computer and Network Engineering",
   },
 ];
 export const COURSE = [
   {
     image: "dicoding.jpg",
-    title: "Belajar Dasar Pemrograman Web",
+    title: "Learn Basic Website Development",
     publish: "Dicoding",
     certificate: "dasarweb.webp",
-    since : "2021"
+    year: 2021,
   },
   {
     image: "buildwithangga.jpg",
     title: "Full-Stack Website Designer",
     publish: "BuildWith Angga",
     certificate: "fullstackwebdesigner.webp",
-    since : "2021"
-
+    year: 2021,
   },
   {
     image: "progate.jpg",
-    title: "Dasar Git",
+    title: "Basic Git",
     publish: "Progate",
     certificate: "git.webp",
-    since : "2021"
-
+    year: 2021,
   },
   {
     image: "dicoding.jpg",
-    title: "Front-End Web Pemula",
+    title: "Beginner Web Front-End",
     publish: "Dicoding",
     certificate: "frontendpemula.webp",
-    since : "2022"
-
+    year: 2022,
   },
   {
     image: "buildwithangga.jpg",
     title: "Front-End Developer : Mastering Vue JS 3",
     publish: "BuildWith Angga",
     certificate: "btcmpvue3.webp",
-    since : "2022"
-
+    year: 2022,
   },
   {
     image: "digitalent.jpg",
     title: "Junior Web Developer 2023",
     publish: "Digital Talent Scholarship",
     certificate: "jwd.webp",
-    since : "2023"
+    year: 2023,
   },
   {
     image: "dicoding.jpg",
-    title: "Belajar Web Dengan React JS",
+    title: "Learn Web With React JS",
     publish: "Dicoding",
     certificate: "jwd.webp",
-    since : "2023"
+    year: 2023,
   },
 ];
