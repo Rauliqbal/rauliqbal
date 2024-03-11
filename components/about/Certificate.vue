@@ -16,12 +16,15 @@ import { COURSE } from "~/data/utils";
             <h4 class="sub-heading mt-3">Awards</h4>
 
             <Swiper
-              :modules="[SwiperAutoplay]"
+              :modules="[SwiperAutoplay, SwiperPagination]"
               :slides-per-view="1"
               :loop="true"
               :autoplay="{
                 delay: 3000,
                 disableOnInteraction: true,
+              }"
+              :pagination="{
+                dynamicBullets: true,
               }"
               :space-between="32"
               :breakpoints="{
@@ -32,10 +35,18 @@ import { COURSE } from "~/data/utils";
               class="mt-10"
             >
               <SwiperSlide
+                class="pb-10"
                 v-for="course in COURSE.sort((a, b) => b.year - a.year)"
               >
-                <div class="flex justify-between items-center">
+                <div
+                  class="flex justify-between items-center bg-white rounded-2xl px-6 py-4"
+                >
                   <div class="flex flex-col gap-2">
+                    <img
+                      class="w-16 rounded-xl mb-4"
+                      :src="'/images/' + course.image"
+                      alt=""
+                    />
                     <p
                       class="text-sm md:text-base font-light tracking-wider text-gray-500"
                     >
@@ -45,9 +56,6 @@ import { COURSE } from "~/data/utils";
                       {{ course.title }}
                     </h5>
                   </div>
-                  <h6 class="tracking-widest text-xl font-light">
-                    {{ course.year }}
-                  </h6>
                 </div>
               </SwiperSlide>
             </Swiper>
