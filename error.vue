@@ -14,7 +14,7 @@ const handleError = () => clearError({ redirect: "/" });
 <template>
   <div>
     <Navbar />
-    <div id="luxy">
+    <div>
       <main class="flex flex-col items-center justify-center py-24">
         <img
           class="max-h-[27rem]"

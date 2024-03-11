@@ -17,9 +17,8 @@ useHead({
     { property: "og:url", content: "https://rauliqbal.my.id" },
     { property: "og:locale", content: "en_US" },
     { property: "og:image", content: "https://nuxt.com/social.jpg" },
-    i,
   ],
-  link: [{ rel: "canonical", href: "https://rauliqbal.my.id" }],
+  link: [{ rel: "canonical", href: "https://rauliqbal.myd.id/" }],
 });
 </script>
 
