@@ -37,7 +37,6 @@ export default defineNuxtConfig({
           content:
             "Rauliqbal, rauliqbal, Raul iqbal, raul iqbal, portfolio front end, ui designer , freelance frontend",
         },
-        { name: "" },
       ],
     },
 

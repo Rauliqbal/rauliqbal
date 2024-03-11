@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply font-poppins text-[#202020];
+    @apply font-poppins text-[#202020] bg-white;
   }
 
   .body-container {
@@ -82,11 +82,24 @@
     transition: clip-path 650ms;
   }
 
-  #hamburger:checked~.wrapper {
+  #hamburger:checked ~ .wrapper {
     clip-path: circle(141.4% at 100% 0);
   }
 
   /* .nav-btn {
     @apply flex items-center justify-center rounded-2xl w-14 h-14 cursor-pointer
   } */
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    color: transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    /* Customize the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    /* Customize the scrollbar thumb */
+  }
 }

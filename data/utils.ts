@@ -203,6 +203,7 @@ export const STUDY = [
 ];
 export const COURSE = [
   {
+    id: 1,
     image: "dicoding.jpg",
     title: "Learn Basic Website Development",
     publish: "Dicoding",
@@ -210,6 +211,7 @@ export const COURSE = [
     year: 2021,
   },
   {
+    id: 2,
     image: "buildwithangga.jpg",
     title: "Full-Stack Website Designer",
     publish: "BuildWith Angga",
@@ -217,6 +219,7 @@ export const COURSE = [
     year: 2021,
   },
   {
+    id: 3,
     image: "progate.jpg",
     title: "Basic Git",
     publish: "Progate",
@@ -224,6 +227,7 @@ export const COURSE = [
     year: 2021,
   },
   {
+    id: 4,
     image: "dicoding.jpg",
     title: "Beginner Web Front-End",
     publish: "Dicoding",
@@ -231,6 +235,7 @@ export const COURSE = [
     year: 2022,
   },
   {
+    id: 5,
     image: "buildwithangga.jpg",
     title: "Front-End Developer : Mastering Vue JS 3",
     publish: "BuildWith Angga",
@@ -238,6 +243,7 @@ export const COURSE = [
     year: 2022,
   },
   {
+    id: 6,
     image: "digitalent.jpg",
     title: "Junior Web Developer 2023",
     publish: "Digital Talent Scholarship",
@@ -245,6 +251,7 @@ export const COURSE = [
     year: 2023,
   },
   {
+    id: 7,
     image: "dicoding.jpg",
     title: "Learn Web With React JS",
     publish: "Dicoding",
