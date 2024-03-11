@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10" id="service">
+  <div class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10">
     <div class="body-container relative">
       <div class="absolute top-0 left-0">
         <h2 class="section-title">CONTACT</h2>
@@ -11,34 +11,46 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-20 lg:gap-20 mt-10">
           <div class="col-span-1">
-            <h4 class="text-2xl font-viga mb-6 text-primary">+62 896 7310 2977</h4>
+            <h4 class="text-2xl font-viga mb-6 text-primary">
+              +62 896 7310 2977
+            </h4>
             <div class="flex flex-col gap-4">
               <h4 class="text-2xl font-viga">Address</h4>
-              <h5 class="text-gray-500">Perum Telaga Murni Blok D1/14A ,Kec. Cikarang Barat, Kab. Bekasi, Indonesian
+              <h5 class="text-gray-500">
+                Perum Telaga Murni Blok D1/14A ,Kec. Cikarang Barat, Kab.
+                Bekasi, Indonesian
               </h5>
             </div>
-            <hr class="my-8">
+            <hr class="my-8" />
             <div class="flex flex-col gap-4">
               <h4 class="text-2xl font-viga">Email</h4>
               <h5 class="text-gray-500">muhamadrauliqbal.13@gmail.com</h5>
             </div>
-            <hr class="my-8">
+            <hr class="my-8" />
             <div class="flex items-center justify-center gap-8">
-              <NuxtLink to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out">
-                <i class="text-2xl  ai-linkedin-fill"></i>
+              <NuxtLink
+                to="/"
+                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
+              >
+                <i class="text-2xl ai-linkedin-fill"></i>
               </NuxtLink>
-              <NuxtLink to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out">
-                <i class="text-2xl  ai-instagram-fill"></i>
+              <NuxtLink
+                to="/"
+                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
+              >
+                <i class="text-2xl ai-instagram-fill"></i>
               </NuxtLink>
-              <NuxtLink to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out">
-                <i class="text-2xl  ai-dribbble-fill"></i>
+              <NuxtLink
+                to="/"
+                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
+              >
+                <i class="text-2xl ai-dribbble-fill"></i>
               </NuxtLink>
-              <NuxtLink to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out">
-                <i class="text-2xl  ai-youtube-fill"></i>
+              <NuxtLink
+                to="/"
+                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
+              >
+                <i class="text-2xl ai-youtube-fill"></i>
               </NuxtLink>
             </div>
           </div>
@@ -47,20 +59,31 @@
             <div>
               <form action="" class="grid grid-cols-2 gap-6">
                 <input
-                  class="col-span-2 md:col-span-1 rounded-3xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
-                  type="text" placeholder="Your name">
+                  class="col-span-2 md:col-span-1 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
+                  type="text"
+                  placeholder="Your name"
+                />
                 <input
-                  class="col-span-2 md:col-span-1 rounded-3xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
-                  type="text" placeholder="Your Email">
+                  class="col-span-2 md:col-span-1 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
+                  type="text"
+                  placeholder="Your Email"
+                />
                 <input
-                  class="col-span-2 rounded-3xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
-                  type="text" placeholder="Subject">
+                  class="col-span-2 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
+                  type="text"
+                  placeholder="Subject"
+                />
                 <textarea
-                  class="col-span-2 rounded-3xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
-                  placeholder="Your message" rows="5" />
-                <button type="submit"
-                  class="col-span-2 w-full rounded-3xl py-4 border border-gray-300 hover:bg-black hover:text-white outline-none focus:border-gray-600 mt-4 transition duration-200 ease-out">Let's
-                  message</button>
+                  class="col-span-2 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
+                  placeholder="Your message"
+                  rows="5"
+                />
+                <button
+                  type="submit"
+                  class="col-span-2 w-full rounded-full py-4 border border-gray-300 hover:bg-black hover:text-white outline-none focus:border-gray-600 mt-4 transition duration-200 ease-out"
+                >
+                  Let's message
+                </button>
               </form>
             </div>
           </div>
