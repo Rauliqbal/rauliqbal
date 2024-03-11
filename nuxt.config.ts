@@ -31,6 +31,13 @@ export default defineNuxtConfig({
           name: "google-site-verification",
           content: "i2o9Ko6wWQ0KRBehPhyZn6nhOO4xJHHgupBwP4r-tW8",
         },
+        { name: "title", content: "Rauliqbal - FrontEnd Developer" },
+        {
+          name: "keywords",
+          content:
+            "Rauliqbal, rauliqbal, Raul iqbal, raul iqbal, portfolio front end, ui designer , freelance frontend",
+        },
+        { name: "" },
       ],
     },
 
