@@ -1,5 +1,6 @@
 <script setup>
 const date = new Date();
+import { SOCMED } from "~/data/utils.ts";
 </script>
 
 <template>
@@ -72,32 +73,17 @@ const date = new Date();
       <div class="flex flex-col items-center bg-white rounded-2xl py-6 gap-6">
         <div class="flex items-center justify-center gap-8">
           <NuxtLink
-            to="/"
+            v-for="socmed in SOCMED"
+            :to="socmed.url"
+            :aria-label="'Read more ' + socmed.title"
+            target="_blank"
             class="text-slate-600 hover:text-primary transition duration-300 ease-in-out"
           >
-            <i class="text-2xl ai-linkedin-fill"></i>
-          </NuxtLink>
-          <NuxtLink
-            to="/"
-            class="text-slate-600 hover:text-primary transition duration-300 ease-in-out"
-          >
-            <i class="text-2xl ai-instagram-fill"></i>
-          </NuxtLink>
-          <NuxtLink
-            to="/"
-            class="text-slate-600 hover:text-primary transition duration-300 ease-in-out"
-          >
-            <i class="text-2xl ai-dribbble-fill"></i>
-          </NuxtLink>
-          <NuxtLink
-            to="/"
-            class="text-slate-600 hover:text-primary transition duration-300 ease-in-out"
-          >
-            <i class="text-2xl ai-youtube-fill"></i>
+            <i :class="'text-2xl ai-' + socmed.title + '-fill'"></i>
           </NuxtLink>
         </div>
         <p class="text-sm text-gray-500 text-center">
-          &copy; 2021 - {{ date.getFullYear() }}, Rauliqbal. Created by
+          &copy; 2021 - {{ date.getFullYear() }}, Rauliqbal💻. Created by
           <NuxtLink
             to="https://azuracoder.my.id"
             class="text-primary font-medium underline"

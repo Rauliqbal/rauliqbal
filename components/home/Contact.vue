@@ -1,3 +1,6 @@
+<script setup>
+import { SOCMED } from "~/data/utils.ts";
+</script>
 <template>
   <div class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10">
     <div class="body-container relative">
@@ -29,28 +32,13 @@
             <hr class="my-8" />
             <div class="flex items-center justify-center gap-8">
               <NuxtLink
-                to="/"
+                :to="socmed.url"
+                v-for="socmed in SOCMED"
+                target="_blank"
+                :aria-label="'Read more ' + socmed.title"
                 class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
               >
-                <i class="text-2xl ai-linkedin-fill"></i>
-              </NuxtLink>
-              <NuxtLink
-                to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
-              >
-                <i class="text-2xl ai-instagram-fill"></i>
-              </NuxtLink>
-              <NuxtLink
-                to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
-              >
-                <i class="text-2xl ai-dribbble-fill"></i>
-              </NuxtLink>
-              <NuxtLink
-                to="/"
-                class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"
-              >
-                <i class="text-2xl ai-youtube-fill"></i>
+                <i :class="'text-2xl ai-' + socmed.title + '-fill'"></i>
               </NuxtLink>
             </div>
           </div>

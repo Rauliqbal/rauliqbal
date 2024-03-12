@@ -259,3 +259,21 @@ export const COURSE = [
     year: 2023,
   },
 ];
+export const SOCMED = [
+  {
+    title: "linkedin",
+    url: "https://www.linkedin.com/in/muhamad-raul-iqbal/",
+  },
+  {
+    title: "github",
+    url: "https://github.com/Rauliqbal",
+  },
+  {
+    title: "dribbble",
+    url: "https://dribbble.com/Rauliqbal",
+  },
+  {
+    title: "youtube",
+    url: "https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ",
+  },
+];
