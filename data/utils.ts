@@ -204,7 +204,7 @@ export const STUDY = [
 export const COURSE = [
   {
     id: 1,
-    image: "dicoding.jpg",
+    image: "dicoding.png",
     title: "Learn Basic Website Development",
     publish: "Dicoding",
     certificate: "dasarweb.webp",
@@ -212,7 +212,7 @@ export const COURSE = [
   },
   {
     id: 2,
-    image: "buildwithangga.jpg",
+    image: "buildwithangga.png",
     title: "Full-Stack Website Designer",
     publish: "BuildWith Angga",
     certificate: "fullstackwebdesigner.webp",
@@ -220,7 +220,7 @@ export const COURSE = [
   },
   {
     id: 3,
-    image: "progate.jpg",
+    image: "progate.png",
     title: "Basic Git",
     publish: "Progate",
     certificate: "git.webp",
@@ -228,7 +228,7 @@ export const COURSE = [
   },
   {
     id: 4,
-    image: "dicoding.jpg",
+    image: "dicoding.png",
     title: "Beginner Web Front-End",
     publish: "Dicoding",
     certificate: "frontendpemula.webp",
@@ -236,7 +236,7 @@ export const COURSE = [
   },
   {
     id: 5,
-    image: "buildwithangga.jpg",
+    image: "buildwithangga.png",
     title: "Front-End Developer : Mastering Vue JS 3",
     publish: "BuildWith Angga",
     certificate: "btcmpvue3.webp",
@@ -244,7 +244,7 @@ export const COURSE = [
   },
   {
     id: 6,
-    image: "digitalent.jpg",
+    image: "digitalent.png",
     title: "Junior Web Developer 2023",
     publish: "Digital Talent Scholarship",
     certificate: "jwd.webp",
@@ -252,10 +252,10 @@ export const COURSE = [
   },
   {
     id: 7,
-    image: "dicoding.jpg",
+    image: "dicoding.png",
     title: "Learn Web With React JS",
     publish: "Dicoding",
-    certificate: "jwd.webp",
+    certificate: "learnreactjs.webp",
     year: 2023,
   },
 ];

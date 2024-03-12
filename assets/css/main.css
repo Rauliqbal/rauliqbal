@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply font-poppins text-[#202020] bg-white;
+    @apply font-poppins text-[#202020] bg-white relative;
   }
 
   .body-container {
