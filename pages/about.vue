@@ -8,7 +8,7 @@ useHead({
   <main>
     <AboutMe />
     <!-- <AboutEducation /> -->
-    <!-- <AboutSkill /> -->
+    <AboutSkill />
     <AboutCertificate />
   </main>
 </template>

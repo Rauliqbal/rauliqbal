@@ -11,7 +11,7 @@ import { PROJECTS } from "~/data/utils";
 
       <div class="mt-14">
         <h3 class="heading">OUR WORKS</h3>
-        <h4 class="sub-heading mt-3">You can visit some of my works</h4>
+        <h4 class="sub-heading mt-3">You Can See My Works</h4>
         <div>
           <UButton label="Open" @click="isOpen = true" />
 

@@ -277,3 +277,68 @@ export const SOCMED = [
     url: "https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ",
   },
 ];
+export const SKILLS = [
+  {
+    title: "front-end",
+    skills: [
+      {
+        title: "html",
+        icon: "html-icon.svg",
+      },
+      {
+        title: "css3",
+        icon: "css3-icon.svg",
+      },
+      {
+        title: "javascript",
+        icon: "javascript-icon.svg",
+      },
+
+      {
+        title: "sass",
+        icon: "sass-icon.svg",
+      },
+      {
+        title: "tailwind",
+        icon: "tailwind-icon.svg",
+      },
+      {
+        title: "bootstrap",
+        icon: "bootstrap-icon.svg",
+      },
+      {
+        title: "react",
+        icon: "react-icon.svg",
+      },
+      {
+        title: "vue",
+        icon: "vue-icon.svg",
+      },
+      {
+        title: "astro",
+        icon: "astro-icon.svg",
+      },
+      {
+        title: "nuxt",
+        icon: "nuxt-icon.svg",
+      },
+    ],
+  },
+  {
+    title: "back-end",
+    skills: [
+      {
+        title: "node",
+        icon: "node-icon.svg",
+      },
+      {
+        title: "bun",
+        icon: "bun-icon.svg",
+      },
+      {
+        title: "express",
+        icon: "express-icon.svg",
+      },
+    ],
+  },
+];
