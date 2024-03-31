@@ -1,7 +1,10 @@
-<script></script>
+<script>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
+</script>
 
 <template>
   <div>
+    <SpeedInsights />
     <Navbar />
     <div id="luxy">
       <NuxtPage />
