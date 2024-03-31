@@ -1,14 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-  modules: ["@nuxt/image", "nuxt-swiper"],
   app: {
     head: {
       charset: "utf-8",
@@ -39,5 +31,38 @@ export default defineNuxtConfig({
 
     pageTransition: { name: "page", mode: "out-in" },
   },
+  css: ["~/assets/css/main.css"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  modules: [
+    "@nuxt/image",
+    "nuxt-swiper",
+    '@vue-email/nuxt',
+    [
+      "nuxt-mail",
+      {
+        message: {
+          to: "muhamadrauliqbal.13@gmail.com",
+        },
+        smtp: {
+          service: "gmail",
+          host: "smtp.gmail.com",
+          port: 465,
+          auth: {
+            user: "doomangle1@gmail.com",
+            pass: "muhamadrauliqbal1302",
+          },
+        },
+      },
+    ],
+  ],
   plugins: [{ src: "~/plugins/luxy-scroll.js", mode: "client" }],
+  vueEmail: {
+    baseUrl: 'https://rauliqbal.my.id',
+    autoImport: true,
+  }
 });
