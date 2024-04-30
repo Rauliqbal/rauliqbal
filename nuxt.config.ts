@@ -38,31 +38,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [
-    "@nuxt/image",
-    "nuxt-swiper",
-    '@vue-email/nuxt',
-    [
-      "nuxt-mail",
-      {
-        message: {
-          to: "muhamadrauliqbal.13@gmail.com",
-        },
-        smtp: {
-          service: "gmail",
-          host: "smtp.gmail.com",
-          port: 465,
-          auth: {
-            user: "doomangle1@gmail.com",
-            pass: "muhamadrauliqbal1302",
-          },
-        },
-      },
-    ],
-  ],
+  modules: ["@nuxt/image", "nuxt-swiper"],
   plugins: [{ src: "~/plugins/luxy-scroll.js", mode: "client" }],
-  vueEmail: {
-    baseUrl: 'https://rauliqbal.my.id',
-    autoImport: true,
-  }
 });

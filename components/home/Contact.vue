@@ -1,5 +1,35 @@
 <script setup>
 import { SOCMED } from "~/data/utils.ts";
+const apiKey =
+  "S9s8OP1lxy5z1smZ4ftCkYntzu3Rc8bCy47ZBbhFNRgJ1w2DBZZZHkaP2xLSyWaU";
+
+const name = ref("");
+const email = ref("");
+const subject = ref("");
+const details = ref("");
+
+const handleContact = async () => {
+  // https://send-email-gmail-nodemailer.vercel.app/api/contact
+  await useFetch("https://send-email-gmail-nodemailer.vercel.app/api/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "api-key": apiKey,
+    },
+    body: {
+      name: name.value,
+      email: email.value,
+      subject: subject.value,
+      details: details.value,
+    },
+  })
+    .then(() => {
+      alert(`Message Sent`);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
 </script>
 <template>
   <div class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10">
@@ -19,10 +49,7 @@ import { SOCMED } from "~/data/utils.ts";
             </h4>
             <div class="flex flex-col gap-4">
               <h4 class="text-2xl font-viga">Address</h4>
-              <h5 class="text-gray-500">
-                Perum Telaga Murni Blok D1/14A ,Kec. Cikarang Barat, Kab.
-                Bekasi, Indonesian
-              </h5>
+              <h5 class="text-gray-500">Bekasi, Indonesian</h5>
             </div>
             <hr class="my-8" />
             <div class="flex flex-col gap-4">
@@ -45,25 +72,36 @@ import { SOCMED } from "~/data/utils.ts";
 
           <div class="col-span-2">
             <div>
-              <form action="" class="grid grid-cols-2 gap-6">
+              <form
+                @submit.prevent="handleContact"
+                class="grid grid-cols-2 gap-6"
+              >
                 <input
                   class="col-span-2 md:col-span-1 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
                   type="text"
                   placeholder="Your name"
+                  v-model="name"
+                  required
                 />
                 <input
                   class="col-span-2 md:col-span-1 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
-                  type="text"
+                  type="email"
                   placeholder="Your Email"
+                  v-model="email"
+                  required
                 />
                 <input
                   class="col-span-2 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
                   type="text"
                   placeholder="Subject"
+                  v-model="subject"
+                  required
                 />
                 <textarea
                   class="col-span-2 rounded-2xl bg-transparent border border-gray-300 outline-none focus:border-gray-600 py-4 px-6 placeholder:text-sm transition duration-200 ease-out"
                   placeholder="Your message"
+                  v-model="details"
+                  required
                   rows="5"
                 />
                 <button
