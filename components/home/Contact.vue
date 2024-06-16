@@ -32,7 +32,10 @@ const handleContact = async () => {
 };
 </script>
 <template>
-  <div class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10">
+  <div
+    class="container bg-[#F5F7F9] rounded-3xl mt-10 scroll-mt-10"
+    id="contact"
+  >
     <div class="body-container relative">
       <div class="absolute top-0 left-0">
         <h2 class="section-title">CONTACT</h2>
