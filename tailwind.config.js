@@ -36,6 +36,7 @@ export default {
       colors: {
         primary: "#5F65F4",
       },
+      backgroundImage: {},
     },
   },
   plugins: [],

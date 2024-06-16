@@ -15,6 +15,7 @@ import { PRODUCTS } from "~/data/utils";
           <div
             class="flex flex-col rounded-2xl overflow-hidden"
             v-for="product in PRODUCTS.slice(0, 3)"
+            :key="product"
           >
             <div class="relative">
               <img

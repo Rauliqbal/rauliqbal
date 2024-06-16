@@ -15,9 +15,7 @@ let showModal = ref(false);
         <div class="mx-auto mt-10">
           <div>
             <h3 class="heading">SKILLS</h3>
-            <h4 class="sub-heading mt-3">
-              Create a Cool Look With Modern Architecture
-            </h4>
+            <h4 class="sub-heading mt-3">My Tech Stack and Frameworks</h4>
 
             <div class="grid md:grid-cols-2 gap-8 mt-10">
               <div>
@@ -26,7 +24,7 @@ let showModal = ref(false);
                     Front-End Tech
                   </h6>
                   <ul class="flex flex-row gap-4 flex-wrap">
-                    <li v-for="skill in SKILLS[0].skills">
+                    <li v-for="skill in SKILLS[0].skills" :key="skill">
                       <img
                         class="w-10 md:w-14"
                         :src="'/images/icons/' + skill.icon"
@@ -41,7 +39,7 @@ let showModal = ref(false);
                     Back-End Tech
                   </h6>
                   <ul class="flex flex-row gap-4 flex-wrap">
-                    <li v-for="skill in SKILLS[1].skills">
+                    <li v-for="skill in SKILLS[1].skills" :key="skill">
                       <img
                         class="w-10 md:w-14"
                         :src="'/images/icons/' + skill.icon"
@@ -81,5 +79,4 @@ let showModal = ref(false);
       </div>
     </div>
   </div>
-  <
 </template>

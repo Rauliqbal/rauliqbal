@@ -61,6 +61,7 @@ const handleContact = async () => {
               <NuxtLink
                 :to="socmed.url"
                 v-for="socmed in SOCMED"
+                :key="socmed"
                 target="_blank"
                 :aria-label="'Read more ' + socmed.title"
                 class="w-14 h-14 flex hover:bg-primary hover:text-white items-center justify-center bg-[#EEEEEF] text-slate-600 rounded-full transition duration-300 ease-in-out"

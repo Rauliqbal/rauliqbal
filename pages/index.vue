@@ -25,6 +25,7 @@ useHead({
 <template>
   <main>
     <HomeHero />
+    <HomeAbout />
     <HomeService />
     <HomeProject />
     <HomeProduct />

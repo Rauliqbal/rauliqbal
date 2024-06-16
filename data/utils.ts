@@ -154,12 +154,11 @@ export const PROJECTS = [
 export const PRODUCTS = [
   {
     id: 1,
-    url: "https://www.uplabs.com/posts/furnilux-web-landingpage",
+    url: "https://azurakit.vercel.app/product/dtq8B4VppLl7vy3mznzIdA==",
     name: "furnilux web landing page",
-    source: "uplabs",
+    source: "Azurakit",
     type: "premium",
-    image:
-      "https://assets.materialup.com/uploads/1d56eb98-b6c6-416b-b613-ecdfe0e75abb/preview.png",
+    image: "https://public-files.gumroad.com/sz0z5ps0a66qxbumvbdvlwxesf6h",
   },
   {
     id: 2,
@@ -293,7 +292,6 @@ export const SKILLS = [
         title: "javascript",
         icon: "javascript-icon.svg",
       },
-
       {
         title: "sass",
         icon: "sass-icon.svg",
