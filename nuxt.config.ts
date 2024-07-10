@@ -38,6 +38,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/image", "nuxt-swiper", "@formkit/auto-animate/nuxt"],
+  modules: ["@nuxt/image", "nuxt-swiper"],
   plugins: [{ src: "~/plugins/luxy-scroll.js", mode: "client" }],
 });

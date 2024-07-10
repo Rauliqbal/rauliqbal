@@ -1,9 +1,10 @@
 <script>
-import { SpeedInsights } from '@vercel/speed-insights/vue';
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 </script>
 
 <template>
   <div>
+    <NuxtLoadingIndicator color="#348feb" height="5" />
     <SpeedInsights />
     <Navbar />
     <div id="luxy">
