@@ -260,12 +260,12 @@ export const COURSE = [
 ];
 export const SOCMED = [
   {
-    title: "linkedin",
-    url: "https://www.linkedin.com/in/muhamad-raul-iqbal/",
+    title: "instagram",
+    url: "https://github.com/Rauliqbal",
   },
   {
-    title: "github",
-    url: "https://github.com/Rauliqbal",
+    title: "linkedin",
+    url: "https://www.linkedin.com/in/muhamad-raul-iqbal/",
   },
   {
     title: "dribbble",
