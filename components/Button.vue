@@ -2,8 +2,8 @@
 defineProps({
   title: String,
   url: String,
-  icon: String
-})
+  icon: String,
+});
 </script>
 
 <template>

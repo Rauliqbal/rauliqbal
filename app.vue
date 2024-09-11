@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 <template>
   <div>
-    <NuxtLoadingIndicator color="#348feb" height="5" />
+    <NuxtLoadingIndicator color="#348feb" />
     <SpeedInsights />
     <Navbar />
     <div id="luxy">
@@ -17,7 +17,7 @@ import { SpeedInsights } from "@vercel/speed-insights/vue";
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 0.6s;
 }
 
 .page-enter-from,

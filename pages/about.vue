@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <main>
-    <AboutMe />
+    <AboutMe class="mt-24 md:mt-28" />
     <!-- <AboutEducation /> -->
     <AboutSkill />
     <AboutCertificate />

@@ -18,7 +18,7 @@
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 hover:bg-white rounded-full inline-flex items-center gap-2 tracking-wide bg-black hover:text-black hover:ring-[2px] hover:ring-black text-white active:scale-95 transition duration-200 ease-out;
+    @apply px-6 py-2 hover:bg-transparent rounded-full inline-flex items-center gap-2 tracking-wide bg-black hover:text-black hover:ring-[2px] hover:ring-black text-white active:scale-95 transition duration-200 ease-out;
   }
 
   .btn-link {

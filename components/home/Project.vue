@@ -4,14 +4,14 @@ import { PROJECTS } from "~/data/utils";
 
 <template>
   <div class="container bg-[#F5F7F9] rounded-3xl mt-10">
-    <div class="body-container relative">
+    <div class="relative body-container">
       <div class="absolute top-0 left-0">
         <h2 class="section-title">PROJECTS</h2>
       </div>
 
       <div class="mt-14">
         <h3 class="heading">OUR WORKS</h3>
-        <h4 class="sub-heading mt-3">You Can See My Works</h4>
+        <h4 class="mt-3 sub-heading">You Can See My Works</h4>
         <Swiper
           :modules="[SwiperAutoplay, SwiperNavigation]"
           :slides-per-view="1"
@@ -27,17 +27,17 @@ import { PROJECTS } from "~/data/utils";
           }"
         >
           <SwiperSlide v-for="project in PROJECTS.slice(0, 6)" :key="project">
-            <div class="relative rounded-3xl overflow-hidden mt-10 group">
+            <div class="overflow-hidden relative mt-10 rounded-3xl group">
               <img
                 :src="'/images/projects/' + project.img"
                 :alt="project.title"
               />
               <div
-                class="p-3 md:p-5 absolute opacity-0 group-hover:opacity-100 -bottom-6 group-hover:bottom-2 group-hover:md:bottom-6 inset-x-2 md:inset-x-6 bg-gradient-to-r from-gray-400/50 to-gray-300/70 backdrop-blur-md rounded-2xl transition-all duration-500 ease-in-out"
+                class="absolute inset-x-2 -bottom-6 p-3 bg-gradient-to-r rounded-2xl opacity-0 backdrop-blur-md transition-all duration-500 ease-in-out md:p-5 group-hover:opacity-100 group-hover:bottom-2 group-hover:md:bottom-6 md:inset-x-6 from-gray-400/40 to-gray-400/20"
               >
                 <div class="flex justify-between items-center">
                   <div>
-                    <h5 class="md:text-xl text-white font-semibold">
+                    <h5 class="font-semibold text-white md:text-xl">
                       {{ project.title }}
                     </h5>
                     <p
@@ -46,12 +46,12 @@ import { PROJECTS } from "~/data/utils";
                       {{ project.type }}
                     </p>
                   </div>
-                  <NuxtLink
+                  <a
                     :to="project.url"
                     class="text-4xl text-white"
                     target="_blank"
                     ><i class="ai-arrow-up-right"></i
-                  ></NuxtLink>
+                  ></a>
                 </div>
               </div>
             </div>

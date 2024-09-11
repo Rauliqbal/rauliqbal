@@ -29,6 +29,5 @@ useHead({
     <HomeService />
     <HomeProject />
     <HomeProduct />
-    <HomeContact />
   </main>
 </template>

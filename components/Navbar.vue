@@ -29,14 +29,16 @@ const showHide = function () {
         </label>
         <div class="wrapper">
           <div class="flex flex-col items-center w-screen h-screen md:flex-row">
-            <div
-              class="flex relative justify-center items-center h-[90%] md:w-3/5"
-            >
+            <div class="hidden absolute md:block md:-left-20 lg:left-0">
               <p
-                class="hidden absolute -left-8 text-9xl font-bold text-gray-100 -rotate-90 lg:text-gray-200 lg:left-0 md:block"
+                class="text-9xl font-bold text-gray-100 -rotate-90 lg:text-gray-200"
               >
                 MENU
               </p>
+            </div>
+            <div
+              class="flex relative justify-center items-center h-[90%] md:w-4/6"
+            >
               <div class="flex relative flex-col justify-between">
                 <!-- Menu -->
                 <div class="flex flex-col gap-4 items-center px-10 group">
@@ -53,7 +55,7 @@ const showHide = function () {
             </div>
 
             <div
-              class="hidden md:flex inset-0 justify-center items-center w-full h-[10%] md:w-2/5 md:h-full bg-slate-100"
+              class="hidden md:flex inset-0 pl-10 items-center w-full h-[10%] md:w-2/6 md:h-full bg-slate-100"
             >
               <div class="grid grid-cols-2 gap-y-2 gap-4 w-80 md:grid-cols-1">
                 <div class="flex flex-col flex-start">
@@ -72,7 +74,7 @@ const showHide = function () {
                   </h4>
                   <div class="flex flex-col gap-2 mt-3">
                     <a
-                      class="font-medium text-gray-400 capitalize transition hover:text-primary"
+                      class="text-gray-500 capitalize transition-all hover:text-gray-900"
                       :href="item.url"
                       v-for="item in SOCMED"
                       :key="item.id"

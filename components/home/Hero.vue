@@ -2,19 +2,14 @@
   <div
     class="container bg-[#F5F7F9] rounded-3xl relative overflow-hidden mt-24 md:mt-28"
   >
-    <div class="body-container relative">
+    <div class="relative body-container">
       <div
-        class="flex flex-col lg:flex-row gap-10 lg:items-center justify-between relative z-10"
+        class="flex relative z-10 flex-col gap-10 justify-between lg:flex-row lg:items-center"
       >
-        <h1 class="ml6">
-          <span class="text-wrapper">
-            <span
-              class="letters text-2xl md:text-4xl xl:text-6xl md:leading-normal xl:leading-tight font-viga md:max-w-[864px]"
-            >
-              Someone who has interest and talent in Web Development and Web
-              Design</span
-            >
-          </span>
+        <h1
+          class="text-2xl md:text-4xl xl:text-6xl md:leading-normal xl:leading-tight font-viga md:max-w-[864px]"
+        >
+          Someone who has interest and talent in Web Development and Web Design
         </h1>
         <p class="lg:hidden desc max-w-[617px]">
           I am Rauliqbal, a Front-End Developer and UI/UX Designer who has a
@@ -25,14 +20,14 @@
           class="flex flex-row lg:flex-col justify-between max-w-[580px] gap-8"
         >
           <div>
-            <h5 class="text-4xl mb-1 font-viga">03</h5>
-            <p class="text-slate-500 font-light tracking-wider">
+            <h5 class="mb-1 text-4xl font-viga">03</h5>
+            <p class="font-light tracking-wider text-slate-500">
               YEARS EXPERIENCE
             </p>
           </div>
           <div>
-            <h5 class="text-4xl mb-1 font-viga">50+</h5>
-            <p class="text-slate-500 font-light tracking-wider">
+            <h5 class="mb-1 text-4xl font-viga">50+</h5>
+            <p class="font-light tracking-wider text-slate-500">
               COMPLETED PROJECTS
             </p>
           </div>
@@ -48,7 +43,7 @@
         class="absolute h-[280px] md:h-[320px] lg:h-[400px] xl-[500px] -right-1 bottom-40 lg:top-0"
       />
 
-      <div class="flex items-center justify-between mt-10 relative">
+      <div class="flex relative justify-between items-center mt-10">
         <Button
           class="btn-primary"
           url="#service"
@@ -64,7 +59,7 @@
 
       <hr class="my-10" />
 
-      <div class="flex whitespace-nowrap w-full overflow-hidden">
+      <div class="flex overflow-hidden w-full whitespace-nowrap">
         <p
           class="text-2xl lg:text-3xl font-viga tracking-[.3em] animate-loopText"
         >

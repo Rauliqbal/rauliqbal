@@ -12,8 +12,8 @@ export const NAV_LINKS = [
     url: "/project",
   },
   {
-    title: "product",
-    url: "/product",
+    title: "resume",
+    url: "/resume",
   },
   {
     title: "contact",
@@ -23,19 +23,19 @@ export const NAV_LINKS = [
 export const SERVICES = [
   {
     title: "Web Development",
-    desc: "Create your amazing idea in websites, full interaction with responsive views.",
+    description: "Create your amazing idea in websites, full interaction with responsive views.",
     icon: "developer.svg",
   },
   {
     title: "UI/UX Designer",
-    desc: "Create eye-catching and powerful mobile apps with a focus on User.",
+    description: "Create eye-catching and powerful mobile apps with a focus on User.",
     icon: "designer.svg",
   },
 ];
 export const PROJECTS = [
   {
     title: "Anonime - Streaming Anime",
-    desc: "Anonime is your favorite anime streaming plac",
+    description: "Anonime is your favorite anime streaming place",
     img: "anonime.webp",
     url: "https://anonime-react.vercel.app/",
     type: "Web App",
@@ -44,7 +44,7 @@ export const PROJECTS = [
   },
   {
     title: "Travel Web - Landing Page",
-    desc: "Modern travel website landing page",
+    description: "Modern travel website landing page",
     img: "hilink.webp",
     url: "https://travel-landingpage-iota.vercel.app/",
     type: "Landing Page",
@@ -52,26 +52,8 @@ export const PROJECTS = [
     tech: [{ icon: "html-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
   {
-    title: "Website Blog",
-    desc: "Simple blog site with Astro JS framework",
-    img: "astro-blog.webp",
-    url: "https://simple-blog-opal-nine.vercel.app/",
-    type: "Blog",
-    source_code: "https://github.com/Rauliqbal/simple-blog",
-    tech: [{ icon: "astro-icon.svg" }, { icon: "tailwind-icon.svg" }],
-  },
-  {
-    title: "Creative Agency Website - Landing Page",
-    desc: "Studio Agency Website",
-    img: "creative-agency.webp",
-    url: "https://sukode.vercel.app",
-    type: "Landing Page",
-    source_code: "https://github.com/Rauliqbal/creative-studio",
-    tech: [{ icon: "html-icon.svg" }],
-  },
-  {
     title: "Cozy App - Find Cozy House",
-    desc: "Application to find a place to live",
+    description: "Application to find a place to live",
     img: "cozy-app.webp",
     url: "https://github.com/Rauliqbal/cozy-app",
     type: "Application",
@@ -80,7 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "MOVIERAA - Sreaming Movie & TV Shows",
-    desc: "Movieraa is a website for streaming movies and tv shows, but this is just a website view.",
+    description: "Movieraa is a website for streaming movies and tv shows, but this is just a website view.",
     img: "movieraa.webp",
     url: "https://movieraa.vercel.app/",
     type: "Web Dev",
@@ -89,25 +71,17 @@ export const PROJECTS = [
   },
   {
     title: "My Mushaf - Al Qur'an Digital App",
-    desc: "My mushaf is an application of the Qur'an in Indonesian",
+    description: "My mushaf is an application of the Qur'an in Indonesian",
     img: "mymushaf-app.webp",
     url: "https://github.com/Rauliqbal/my_mushaf-app",
     type: "Application",
     source_code: "https://github.com/Rauliqbal/my_mushaf-app",
     tech: [{ icon: "flutter-icon.svg" }],
   },
-  {
-    title: "BeLife - Landing Page",
-    desc: "Belief is a website for family insurance services, such as health insurance, etc.",
-    img: "belife.webp",
-    url: "https://belife-landingpage.vercel.app/",
-    type: "Landing Page",
-    source_code: "https://github.com/Rauliqbal/belife-landingpage",
-    tech: [{ icon: "react-icon.svg" }, { icon: "tailwind-icon.svg" }],
-  },
+  
   {
     title: "Zullkit - Store UI KIT",
-    desc: "Zullkit is a website that provides UI Kits and website designs.",
+    description: "Zullkit is a website that provides UI Kits and website designs.",
     img: "zullkit.webp",
     url: "https://zullkit-app.netlify.app/",
     type: "Web Dev",
@@ -116,7 +90,7 @@ export const PROJECTS = [
   },
   {
     title: "My Mushaf - Al Qur'an Digital",
-    desc: "My Mushaf is a website-based digital al-Quran application.",
+    description: "My Mushaf is a website-based digital al-Quran application.",
     img: "mymushaf.webp",
     url: "https://mymushaf.vercel.app/",
     type: "Web App",
@@ -125,25 +99,17 @@ export const PROJECTS = [
   },
   {
     title: "FurniLux - Best Furniture",
-    desc: "Furnilux is a website that provides home furnishings, to beautify your room.",
+    description: "Furnilux is a website that provides home furnishings, to beautify your room.",
     img: "furnilux.webp",
     url: "https://furnilux.vercel.app/",
     type: "Landing Page",
     source_code: "https://github.com/Rauliqbal/furnilux-frontend",
     tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
   },
-  {
-    title: "Lentera House - Landing Page",
-    desc: "Lantern house is a website to find your dream house.",
-    img: "lenterahouse.webp",
-    url: "https://lentera-house-landingpage.vercel.app/",
-    type: "Landing Page",
-    source_code: "https://github.com/Rauliqbal/lentera-house-landingpage",
-    tech: [{ icon: "vue-icon.svg" }, { icon: "tailwind-icon.svg" }],
-  },
+  
   {
     title: "Cafe Street - Landing Page Design",
-    desc: "This website design is for a company that provides coffee",
+    description: "This website design is for a company that provides coffee",
     img: "cafestreet.webp",
     url: "https://www.figma.com/community/file/1138256358581554095",
     type: "UI Design",
