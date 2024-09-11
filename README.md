@@ -1,5 +1,7 @@
 <h1 align="left">Hey 👋 What's up?</h1>
 
+<div align="center"><img src="./public/banner.svg" /></div>
+
 ###
 
 <p align="left">Hello, I'm Rauliqbal, Front-End Developer.</p>
@@ -43,3 +45,11 @@
 </div>
 
 ###
+
+## 📊 GitHub Stats:
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="github stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rauliqbal&theme=tokyonight&hide_border=false" alt="github stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="github stats"/> 
+</div>
