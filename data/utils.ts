@@ -317,3 +317,64 @@ export const TOOLS= [
     logo: 'ic_httpie.svg'
   },
 ]
+export const SKILLS = [
+  {
+    title: "front-end",
+    skills: [
+      {
+        title: "html",
+        icon: "ic_html.svg",
+      },
+      {
+        title: "css3",
+        icon: "ic_css.svg",
+      },
+      {
+        title: "javascript",
+        icon: "ic_javascript.svg",
+      },
+      {
+        title: "sass",
+        icon: "ic_sass.svg",
+      },
+      {
+        title: "tailwind",
+        icon: "ic_tailwind.svg",
+      },
+      
+      {
+        title: "react js",
+        icon: "ic_reactjs.svg",
+      },
+      {
+        title: "vue js",
+        icon: "ic_vuejs.svg",
+      },
+      {
+        title: "astro",
+        icon: "ic_astro.svg",
+      },
+      {
+        title: "nuxt",
+        icon: "ic_nuxt.svg",
+      },
+    ],
+  },
+  {
+    title: "back-end",
+    skills: [
+      {
+        title: "node",
+        icon: "ic_nodejs.svg",
+      },
+      {
+        title: "bun",
+        icon: "ic_bun.svg",
+      },
+      {
+        title: "express",
+        icon: "ic_express.svg",
+      },
+    ],
+  },
+];
