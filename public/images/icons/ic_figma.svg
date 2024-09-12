@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="ic_figma">
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="ic_figma" fill="none" stroke="none" />
+    <g id="Figma">
+      <g id="Figma">
+        <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="Figma" fill="none" stroke="none" />
+        <path d="M26.2319 16.6666L16.7081 16.6666C12.1057 16.6666 8.37476 12.9357 8.37476 8.3333L8.37476 8.3333C8.37476 3.73092 12.1057 -3.05176e-05 16.7081 -3.05176e-05L26.2319 -3.05176e-05L26.2319 16.6666L26.2319 16.6666Z" id="Path" fill="#E64A19" stroke="none" clip-path="url(#clip_1)" />
+        <path d="M25.0414 33.3333L16.7081 33.3333C12.1057 33.3333 8.37476 29.6024 8.37476 25L8.37476 25C8.37476 20.3976 12.1057 16.6667 16.7081 16.6667L25.0414 16.6667L25.0414 33.3333L25.0414 33.3333Z" id="Path" fill="#7C4DFF" stroke="none" clip-path="url(#clip_1)" />
+        <path d="M16.7081 50L16.7081 50C12.1057 50 8.37476 46.2691 8.37476 41.6667L8.37476 41.6667C8.37476 37.0643 12.1057 33.3334 16.7081 33.3334L25.0414 33.3334L25.0414 41.6667C25.0414 46.2691 21.3105 50 16.7081 50L16.7081 50Z" id="Path" fill="#66BB6A" stroke="none" clip-path="url(#clip_1)" />
+        <path d="M33.3751 16.6666L25.0417 16.6666L25.0417 -3.05176e-05L33.3751 -3.05176e-05C37.9775 -3.05176e-05 41.7084 3.73092 41.7084 8.3333L41.7084 8.3333C41.7084 12.9357 37.9775 16.6666 33.3751 16.6666L33.3751 16.6666Z" id="Path" fill="#FF7043" stroke="none" clip-path="url(#clip_1)" />
+        <path d="M25.0417 25C25.0417 20.3976 28.7727 16.6667 33.3751 16.6667C37.9775 16.6667 41.7084 20.3976 41.7084 25C41.7084 29.6024 37.9775 33.3333 33.3751 33.3333C28.7727 33.3333 25.0417 29.6024 25.0417 25Z" id="Oval" fill="#29B6F6" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 <template>
   <div>
-    <NuxtLoadingIndicator color="#348feb" />
+    <NuxtLoadingIndicator throttle="0" duration="5000" />
     <SpeedInsights />
     <Navbar />
     <div id="luxy">

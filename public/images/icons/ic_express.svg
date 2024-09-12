@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="ic_express">
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="ic_express" fill="none" stroke="none" />
+    <g id="Group">
+      <g id="Express Js">
+        <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="Express-Js" fill="none" stroke="none" />
+        <path d="M49.7289 11L48.8789 11C47.8279 11 46.8379 11.49 46.1989 12.324L37.4989 23.701L28.7989 12.324C28.1619 11.49 27.1709 11 26.1209 11L25.2709 11L36.2419 25.346L25.0359 40L25.8859 40C26.9369 40 27.9269 39.51 28.5649 38.676L37.4999 26.992L46.4349 38.676C47.0729 39.51 48.0629 40 49.1139 40L49.9639 40L38.7579 25.346L49.7289 11L49.7289 11ZM21.289 34.242C18.735 38.123 13.707 40.112 8.9 38.358C4.671 36.815 2 32.611 2 28.109L2 27L14 27L14 27L25 27L25 22.866C25 16.361 20.182 10.666 13.705 10.057C6.273 9.35798 0 15.21 0 22.5L0 28.073C0 33.444 3.215 38.437 8.269 40.256C14.872 42.632 21.817 39.086 24.165 33C24.165 33 24.165 33 24.165 33L23.527 33C22.616 33 21.789 33.481 21.289 34.242L21.289 34.242ZM2 22.5C2 16.71 6.71 12 12.5 12C18.29 12 23 16.71 23 22.5L23 25L2 25L2 22.5L2 22.5Z" id="Shape" fill="#000000" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="ic_css">
+    <path d="M50 0L50 0L50 50L0 50L0 0L50 0Z" id="ic_css" fill="none" stroke="none" />
+    <path d="M46.9999 0.411835L3 0.411835L6.88234 44.4117L24.9999 49.5882L43.1176 44.4117L46.9999 0.411835L46.9999 0.411835L46.9999 0.411835Z" id="Shape" fill="#0277BD" stroke="none" clip-path="url(#clip_1)" />
+    <path d="M24.9998 4.29416L24.9998 45.5764L39.4938 41.4352L42.7291 4.29416L24.9998 4.29416Z" id="Shape" fill="#039BE5" stroke="none" clip-path="url(#clip_1)" />
+    <path d="M36.7762 10.7647L24.9998 10.7647L24.9998 15.9412L31.3409 15.9412L30.9527 21.1176L24.9998 21.1176L24.9998 26.2941L30.6939 26.2941L30.3056 32.1176L24.9998 33.9294L24.9998 39.3646L35.2233 35.9999L36.1291 21.1176L36.1291 21.1176L36.7762 10.7647Z" id="Shape" fill="#FFFFFF" stroke="none" clip-path="url(#clip_1)" />
+    <path d="M24.9996 10.7647L24.9996 15.9412L13.482 15.9412L13.0938 10.7647L24.9996 10.7647L24.9996 10.7647ZM19.0467 21.1176L19.3055 26.2941L24.9996 26.2941L24.9996 21.1176L19.0467 21.1176L19.0467 21.1176ZM19.5643 28.8823L14.3879 28.8823L14.7761 35.9999L24.9996 39.3646L24.9996 33.9294L19.6937 32.1176L19.5643 28.8823L19.5643 28.8823Z" id="Shape" fill="#EEEEEE" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>

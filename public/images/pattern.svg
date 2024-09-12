@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1452px" height="725px" viewBox="0 0 1452 725" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="pattern">
+    <g id="Group" transform="translate(137 0)">
+      <path d="M0 0L1.79503 0L1.79503 713L0 713L0 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M145.393 0L147.188 0L147.188 713L145.393 713L145.393 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M290.788 0L292.583 0L292.583 713L290.788 713L290.788 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M436.164 0L437.959 0L437.959 713L436.164 713L436.164 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M581.579 0L583.374 0L583.374 713L581.579 713L581.579 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M726.975 0L728.77 0L728.77 713L726.975 713L726.975 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M872.37 0L874.165 0L874.165 713L872.37 713L872.37 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M1017.8 0L1019.6 0L1019.6 713L1017.8 713L1017.8 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M1163.21 0L1165 0L1165 713L1163.21 713L1163.21 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="Group" transform="translate(0 136.02094)">
+      <path d="M0 0L1440 0L1440 1.78975L0 1.78975L0 0Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M0 144.967L1440 144.967L1440 146.757L0 146.757L0 144.967Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M0 289.936L1440 289.936L1440 291.725L0 291.725L0 289.936Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+      <path d="M0 434.904L1440 434.904L1440 436.694L0 436.694L0 434.904Z" id="Rectangle" fill="#050820" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

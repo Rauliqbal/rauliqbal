@@ -16,7 +16,7 @@ const showHide = function () {
 </script>
 <template>
   <nav
-    class="container fixed inset-x-0 top-2 z-50 p-6 rounded-2xl transition duration-700 md:top-3"
+    class="container fixed inset-x-0 top-2 z-40 p-6 rounded-2xl transition duration-700 md:top-3"
   >
     <div class="flex justify-between items-center">
       <NuxtLink to="/">

@@ -242,67 +242,78 @@ export const SOCMED = [
     url: "https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ",
   },
 ];
-export const SKILLS = [
+export const TOOLS= [
   {
-    title: "front-end",
-    skills: [
-      {
-        title: "html",
-        icon: "html-icon.svg",
-      },
-      {
-        title: "css3",
-        icon: "css3-icon.svg",
-      },
-      {
-        title: "javascript",
-        icon: "javascript-icon.svg",
-      },
-      {
-        title: "sass",
-        icon: "sass-icon.svg",
-      },
-      {
-        title: "tailwind",
-        icon: "tailwind-icon.svg",
-      },
-      {
-        title: "bootstrap",
-        icon: "bootstrap-icon.svg",
-      },
-      {
-        title: "react",
-        icon: "react-icon.svg",
-      },
-      {
-        title: "vue",
-        icon: "vue-icon.svg",
-      },
-      {
-        title: "astro",
-        icon: "astro-icon.svg",
-      },
-      {
-        title: "nuxt",
-        icon: "nuxt-icon.svg",
-      },
-    ],
+    name: "html",
+    logo: 'ic_html.svg'
   },
   {
-    title: "back-end",
-    skills: [
-      {
-        title: "node",
-        icon: "node-icon.svg",
-      },
-      {
-        title: "bun",
-        icon: "bun-icon.svg",
-      },
-      {
-        title: "express",
-        icon: "express-icon.svg",
-      },
-    ],
+    name: "css",
+    logo: 'ic_css.svg'
+  },{
+    name: "sass",
+    logo: 'ic_sass.svg'
   },
-];
+  {
+    name: "javascript",
+    logo: 'ic_javascript.svg'
+  },
+  {
+    name: "figma",
+    logo: 'ic_figma.svg'
+  },
+  {
+    name: "vite",
+    logo: 'ic_vite.svg'
+  },
+  {
+    name: "react js",
+    logo: 'ic_reactjs.svg'
+  },
+  {
+    name: "vue js",
+    logo: 'ic_vuejs.svg'
+  },
+  {
+    name: "astro",
+    logo: 'ic_astro.svg'
+  },
+  
+  {
+    name: "nuxt js",
+    logo: 'ic_nuxt.svg'
+  },
+  {
+    name: "node js",
+    logo: 'ic_nodejs.svg'
+  },
+  {
+    name: "bun",
+    logo: 'ic_bun.svg'
+  },
+  {
+    name: "express",
+    logo: 'ic_express.svg'
+  },
+  {
+    name: "prisma",
+    logo: 'ic_prisma.svg'
+  },
+  
+  {
+    name: "mongoDB",
+    logo: 'ic_mongodb.svg'
+  },
+  {
+    name: "mysql",
+    logo: 'ic_mysql.svg'
+  },
+  {
+    name: "apidog",
+    logo: 'ic_apidog.svg'
+  },
+  {
+    name: "httpie",
+    logo: 'ic_httpie.svg'
+  },
+]

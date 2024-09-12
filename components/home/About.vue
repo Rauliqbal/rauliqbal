@@ -14,6 +14,7 @@
           </h4>
         </div>
       </div>
+
       <div
         class="col-span-2 row-span-2 md:order-3 lg:order-2 bg-light rounded-3xl bg-cover bg-center bg-origin-content bg-[url('~/assets/images/pattern2.png')] overflow-hidden relative"
       >

@@ -25,7 +25,7 @@ useHead({
 <template>
   <main>
     <HomeHero />
-    <HomeAbout />
+    <LazyHomeBentoGrid />
     <HomeService />
     <HomeProject />
     <HomeProduct />
