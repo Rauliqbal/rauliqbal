@@ -1,55 +1,93 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<div align="center">
+<img src="./public/IamProgrammerEnglish.png" />
+</div>
 
-<div align="center"><img src="./public/banner.svg" /></div>
+# Hey 👋 What's up?
 
-###
+## `I'm Rauliqbal` `<Front-End Developer/>`
 
-<p align="left">Hello, I'm Rauliqbal, Front-End Developer.</p>
+I develop Web Aplication and User Interface for building responsive, cool looking, and easy to visit.
+I am used to making projects with Vue JS, React JS and Tailwind CSS,
 
-###
+## About me
 
-<h2 align="left">About me</h2>
+- 🔭 I’m currently working as Front-End Developer
+- 👯 want to make something great? [contact me](https://rauliqbal.my.id)
+- 🖥️ See my [portfolio website](https://rauliqbal.my.id)
+- 🌱 I’m currently learning Vue JS, React JS , Node JS, Mongo DB
+- 💬 Ask me about Front-End and UI Designer through my social media
+- ⚡ Fun fact : im use ArchLinux for my daily use and VSCodium for Coding
 
-###
-
-<p align="left">🔭 I’m currently working as Front-End Developer<br>👯 I’m looking to collaborate on<br>🖥️ See my portfolio website<br>🌱 I’m currently learning Vue JS, React JS , Node JS, Mongo DB<br>💬 Ask me about Front-End and UI Designer<br>⚡ Fun fact : im use VS Code for Coding</p>
-
-###
-
-<h2 align="left">I code with</h2>
-
-###
+## Tech Stack
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
+  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" height="40" alt="nuxtjs logo"  />
+  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
+  <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
+  <img src="https://skillicons.dev/icons?i=vue" height="40" alt="vuejs logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="40" alt="vim logo"  />
+  <img src="https://skillicons.dev/icons?i=nuxtjs" height="40" alt="nuxtjs logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo"  />
+</div>
+
+## Tools I Use
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=neovim" height="40" alt="neovim logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=bash" height="40" alt="bash logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=prisma" height="40" alt="prisma logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postman" height="40" alt="postman logo"  />
+</div>
+
+## Database I Use
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
 </div>
 
 ###
 
-## 📊 GitHub Stats:
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="github stats"/> 
+<br/>
+<img src="https://github-readme-stats.vercel.app/api?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="github stats"/>
+<br/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rauliqbal&theme=tokyonight&hide_border=false" alt="github stats"/>
+</div>
+
+###
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="github stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rauliqbal&theme=tokyonight&hide_border=false" alt="github stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="github stats"/> 
-</div>
+<img height="200" src="./public/GitHub.png" /></div>
