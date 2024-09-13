@@ -4,12 +4,12 @@
 
 # Hey 👋 What's up?
 
-`I'm Rauliqbal <Front-End Developer/>`
+### `I'm Rauliqbal <Front-End Developer/>`
 
 I develop Web Aplication and User Interface for building responsive, cool looking, and easy to visit.
 I am used to making projects with Vue JS, React JS and Tailwind CSS,
 
-<h3 align="left">About Me</h3>
+### About Me
 
 - 🔭 I’m currently working as Front-End Developer
 - 👯 want to make something great? [contact me](https://rauliqbal.my.id)
@@ -18,7 +18,7 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 - 💬 Ask me about Front-End and UI Designer through my social media
 - ⚡ Fun fact : im use ArchLinux for my daily use and VSCodium for Coding
 
-<h3 align="left">Tech Stack</h3>
+### Tech Stack
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
@@ -48,7 +48,7 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
   <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo"  />
 </div>
 
-<h3 align="left">Tools I Use</h3>
+### Tools I Use
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=neovim" height="40" alt="neovim logo"  />
@@ -66,7 +66,7 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
   <img src="https://skillicons.dev/icons?i=postman" height="40" alt="postman logo"  />
 </div>
 
-<h3 align="left">Database I Use</h3>
+### Database I Use
 
 <div align="left">
   <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
