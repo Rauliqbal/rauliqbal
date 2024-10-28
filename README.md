@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./public/IamProgrammerEnglish.png" />
+<img src="./IamProgrammerEnglish.png" />
 </div>
 
 # Hey 👋 What's up?
@@ -15,8 +15,8 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 - 👯 want to make something great? [contact me](https://rauliqbal.my.id)
 - 🖥️ See my [portfolio website](https://rauliqbal.my.id)
 - 🌱 I’m currently learning Vue JS, React JS , Node JS, Mongo DB
-- 💬 Ask me about Front-End and UI Designer through my social media
-- ⚡ Fun fact : im use ArchLinux for my daily use and VSCodium for Coding
+- 💬 Ask me about Front-End and UI Designer through [my social media](https://www.instagram.com/raul.iqbl_/)
+- ⚡ Fun fact : im use Arch Linux for my daily use and VSCodium for Coding
 
 ### Tech Stack
 
@@ -79,7 +79,7 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 ###
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="github stats"/> 
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="github stats"/>
 <br/>
 <img src="https://github-readme-stats.vercel.app/api?username=Rauliqbal&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false" alt="github stats"/>
 <br/>
@@ -90,4 +90,4 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 ###
 
 <div align="center">
-<img height="200" src="./public/GitHub.png" /></div>
+<img height="200" src="./GitHub.png" /></div>

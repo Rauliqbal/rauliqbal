@@ -1,13 +1,14 @@
 # Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+/client/.output
+/client/.data
+/client/.nuxt
+/client/.nitro
+/client/.cache
+/client/dist
 
 # Node dependencies
-node_modules
+/client/node_modules
+/server/node_modules
 
 # Logs
 logs
@@ -19,6 +20,8 @@ logs
 .idea
 
 # Local env files
-.env
+/client/.env
+/server/.env
+
 .env.*
 !.env.example
