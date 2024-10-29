@@ -9,7 +9,6 @@ const subject = ref("");
 const details = ref("");
 
 const handleContact = async () => {
-  // https://send-email-gmail-nodemailer.vercel.app/api/contact
   await useFetch("https://send-email-gmail-nodemailer.vercel.app/api/contact", {
     method: "POST",
     headers: {
