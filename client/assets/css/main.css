@@ -86,6 +86,20 @@
     clip-path: circle(141.4% at 100% 0);
   }
 
+  #hamburger:checked + label .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  #hamburger:checked + label .mid-bar {
+    @apply w-0;
+  }
+
+  #hamburger:checked + label .bot-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
   /* .nav-btn {
     @apply flex items-center justify-center rounded-2xl w-14 h-14 cursor-pointer
   } */

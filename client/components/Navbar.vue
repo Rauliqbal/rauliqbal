@@ -25,7 +25,18 @@ const showHide = function () {
       <div>
         <input class="hidden peer" type="checkbox" id="hamburger" />
         <label class="z-50 cursor-pointer nav-btn" for="hamburger">
-          <img src="~/assets/images/hamburger-button.svg" alt="" />
+          <!-- <img src="~/assets/images/hamburger-button.svg" alt="" /> -->
+          <div class="">
+            <div
+              class="m-[6px] w-9 top-bar h-1 rounded-full bg-black transition-all duration-300"
+            ></div>
+            <div
+              class="m-[6px] w-9 mid-bar h-1 rounded-full bg-black transition-all duration-300"
+            ></div>
+            <div
+              class="m-[6px] w-9 bot-bar h-1 rounded-full bg-black transition-all duration-300"
+            ></div>
+          </div>
         </label>
         <div class="wrapper">
           <div class="flex flex-col items-center w-screen h-screen md:flex-row">
