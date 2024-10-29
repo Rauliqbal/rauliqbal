@@ -4,7 +4,7 @@
     <div class="container bg-[#F5F7F9] rounded-3xl mt-24 md:mt-28">
       <div class="relative body-container">
         <div class="absolute top-0 left-0">
-          <h2 class="section-title">PROJECTS</h2>
+          <h2 class="section-title">RESUME</h2>
         </div>
 
         <div class="mt-14 bg-white p-4 md:px-24 md:py-28 rounded-2xl">
