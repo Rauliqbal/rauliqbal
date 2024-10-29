@@ -19,7 +19,7 @@ import { NAV_LINKS, SOCMED } from "~/data/utils.ts";
               Have a project in mind?
             </h4>
             <NuxtLink
-              to="/"
+              to="/contact"
               class="text-3xl font-viga lg:text-5xl text-primary hover:underline"
               >Le’ts get to work.</NuxtLink
             >
