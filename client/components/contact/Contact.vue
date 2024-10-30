@@ -9,10 +9,15 @@ const email = ref("");
 const subject = ref("");
 const details = ref("");
 
+function notify() {
+  $toast.success("Hello");
+}
+
 const handleContact = async () => {
-  await useFetch(process.env.VITE_EMAIL_URL, {
+  await useFetch("http://localhost:8080/api/contact", {
     method: "POST",
     headers: {
+      //  "Access-Control-Allow-Origin": "*",
       "Content-Type": "application/json",
       "api-key": process.env.VITE_API_KEY,
     },
@@ -28,7 +33,7 @@ const handleContact = async () => {
       $toast.success("Message Sent");
     })
     .catch((err) => {
-      console.log(err);
+      $toast.success("Message : " + err);
     });
 };
 </script>
@@ -45,6 +50,8 @@ const handleContact = async () => {
       <div class="mt-14">
         <h3 class="heading">LET'S CONTACT</h3>
         <h4 class="mt-3 sub-heading">Let’s Work Together</h4>
+
+        <button @click="notify">Click</button>
 
         <div class="grid grid-cols-1 gap-y-20 mt-10 lg:grid-cols-3 lg:gap-20">
           <div class="col-span-1">

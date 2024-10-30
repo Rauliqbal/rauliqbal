@@ -1,20 +1,17 @@
 <script setup>
 import { SOCMED } from "~/data/utils.ts";
-const apiKey =
-  "S9s8OP1lxy5z1smZ4ftCkYntzu3Rc8bCy47ZBbhFNRgJ1w2DBZZZHkaP2xLSyWaU";
 
 const name = ref("");
 const email = ref("");
 const subject = ref("");
 const details = ref("");
 
-const handleContact = async () => {
-  // https://send-email-gmail-nodemailer.vercel.app/api/contact
-  await useFetch("https://send-email-gmail-nodemailer.vercel.app/api/contact", {
+async function handleContact() {
+  await useFetch("https://rauliqbal-nodemailer.vercel.app/api/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "api-key": apiKey,
+      "api-key": process.env.API_KEY,
     },
     body: {
       name: name.value,
@@ -27,9 +24,9 @@ const handleContact = async () => {
       alert(`Message Sent`);
     })
     .catch((err) => {
-      console.log(err);
+      alert(err);
     });
-};
+}
 </script>
 <template>
   <main>
