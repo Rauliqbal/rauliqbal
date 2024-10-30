@@ -7,7 +7,7 @@ dotenv.config()
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
-app.use(cors());
+app.use(cors({ origin: 'https://rauliqbal.my.id/', optionsSuccessStatus: 200 }));
 
 // Check API KEY
 const checkApiKey = (req, res, next) => {

@@ -1,19 +1,20 @@
 <script setup>
+import { useToast } from "vue-toast-notification";
+import "vue-toast-notification/dist/theme-sugar.css";
 import { SOCMED } from "~/data/utils.ts";
-const apiKey =
-  "S9s8OP1lxy5z1smZ4ftCkYntzu3Rc8bCy47ZBbhFNRgJ1w2DBZZZHkaP2xLSyWaU";
 
+const $toast = useToast();
 const name = ref("");
 const email = ref("");
 const subject = ref("");
 const details = ref("");
 
 const handleContact = async () => {
-  await useFetch("https://send-email-gmail-nodemailer.vercel.app/api/contact", {
+  await useFetch(process.env.VITE_EMAIL_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "api-key": apiKey,
+      "api-key": process.env.VITE_API_KEY,
     },
     body: {
       name: name.value,
@@ -23,7 +24,8 @@ const handleContact = async () => {
     },
   })
     .then(() => {
-      alert(`Message Sent`);
+      // alert(`Message Sent`);
+      $toast.success("Message Sent");
     })
     .catch((err) => {
       console.log(err);
