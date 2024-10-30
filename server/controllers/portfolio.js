@@ -1,14 +1,7 @@
 import nodemailer from 'nodemailer';
 import htmlContact from '../template/contact.js';
 
-// const config = {
-//   host: "smtp.gmail.com",
-//   port: 587,
-//   auth: {
-//     user: 'doomangle1@gmail.com',
-//     pass: 'wtiq cidh ikci jflh',
-//   },
-// };
+
 
 const contactPortfolio = (req, res) => {
   const config = {
