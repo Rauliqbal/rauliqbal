@@ -27,21 +27,21 @@ export default {
          animation: {
             loopText: "loopRun 18s infinite linear",
             "scroll-left": "scroll-left 20s linear infinite",
-        "scroll-right": "scroll-right 25s linear infinite",
+            "scroll-right": "scroll-right 25s linear infinite",
          },
          keyframes: {
             loopRun: {
                "0%": { transform: "translateX(0)" },
                "100%": { transform: "translateX(-100%)" },
             },
-             "scroll-left": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
-        },
-        "scroll-right": {
-          from: { transform: "translateX(-100%)" },
-          to: { transform: "translateX(0)" },
-        },
+            "scroll-left": {
+               from: { transform: "translateX(0)" },
+               to: { transform: "translateX(-100%)" },
+            },
+            "scroll-right": {
+               from: { transform: "translateX(-100%)" },
+               to: { transform: "translateX(0)" },
+            },
          },
          colors: {
             primary: "#5F65F4",

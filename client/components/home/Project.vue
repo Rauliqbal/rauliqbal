@@ -48,7 +48,7 @@ import { PROJECTS } from "~/data/utils";
                       </p>
                     </div>
                     <a
-                      :to="project.url"
+                      :href="project.url"
                       class="text-4xl text-white"
                       target="_blank"
                       ><i class="ai-arrow-up-right"></i
