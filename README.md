@@ -4,7 +4,7 @@
 
 # Hey 👋 What's up?
 
-### `I'm Rauliqbal <Front-End Developer/>`
+### `I'm Rauliqbal a Front-EndDeveloper and UI Designer`
 
 I develop Web Aplication and User Interface for building responsive, cool looking, and easy to visit.
 I am used to making projects with Vue JS, React JS and Tailwind CSS,
@@ -12,7 +12,7 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 ### About Me
 
 - 🔭 I’m currently working as Front-End Developer
-- 👯 want to make something great? [contact me](https://rauliqbal.my.id)
+- 👯 want to make something great? [contact me](https://rauliqbal.my.id/contact)
 - 🖥️ See my [portfolio website](https://rauliqbal.my.id)
 - 🌱 I’m currently learning Vue JS, React JS , Node JS, Mongo DB
 - 💬 Ask me about Front-End and UI Designer through [my social media](https://www.instagram.com/raul.iqbl_/)
@@ -21,10 +21,6 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
 ### Tech Stack
 
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo"  />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  />
