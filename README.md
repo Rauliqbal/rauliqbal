@@ -1,4 +1,3 @@
-
 # 👋🏻 Hey What's up?
 
 ### `👨🏻‍💻 I'm Rauliqbal a Front-EndDeveloper and UI Designer`
@@ -70,34 +69,29 @@
   <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=supabase" height="40" alt="supabase logo"  />
 </div>
 
 ### Get In Touch
 
 <div align="left">
   <a href="https://www.linkedin.com/in/muhamad-raul-iqbal/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="mongodb logo"  />
+    <img src="./linkedin.svg" height="40" alt="linkedin logo"  />
   </a>
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
+   <a href="https://dribbble.com/Rauliqbal" target="_blank">
+    <img src="./dribbble.svg" height="40" alt="dribble logo"  />
+  </a>
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+  <a href="https://www.figma.com/@rauliqbal" target="_blank">
+    <img src="./figma.svg" height="40" alt="figma logo"  />
+  </a>
+  <img width="12" />
+  <a href="https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ" target="_blank">
+    <img src="./youtube.svg" height="40" alt="mongodb logo"  />
+  </a>
 </div>
-
-<div align="left">
-  <a style="border-radius:8px;" >
-    <img  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" style="margin-right: 4px">
-  </a>
-<!--   <img width="12" />
-  <a href="https://www.youtube.com/@https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ" target="_blank">
-    <img style="border-radius:8px;" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35" style="margin-right: 4px">
-  </a>
-  <img width="12" />
-  <a href="https://dribbble.com/Rauliqbal" target="_blank">
-  <img style="border-radius:8px;" src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" height="35" style="margin-right: 4px">
-  </a> -->
-</div>
-
 
 ###
 
