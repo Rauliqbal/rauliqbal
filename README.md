@@ -2,12 +2,15 @@
 <img src="./IamProgrammerEnglish.png" />
 </div>
 
-# Hey 👋 What's up?
+# Hey What's up?
 
 ### `I'm Rauliqbal a Front-EndDeveloper and UI Designer`
 
-I develop Web Aplication and User Interface for building responsive, cool looking, and easy to visit.
-I am used to making projects with Vue JS, React JS and Tailwind CSS,
+🚀 Passionate front-end developer and UI/UX designer who has a passion for building responsive, attractive, and user-friendly web applications.
+
+<div align="center">
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/79731568097599.5b50bca477735.jpg" />
+</div>
 
 ### About Me
 
@@ -70,6 +73,22 @@ I am used to making projects with Vue JS, React JS and Tailwind CSS,
   <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
+</div>
+
+### Get In Touch
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/muhamad-raul-iqbal/" target="_blank">
+    <img style="border-radius:8px;" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" style="margin-right: 4px">
+  </a>
+  <img width="12" />
+  <a href="https://www.youtube.com/@https://www.youtube.com/channel/UCklGTRJJjc00lK-qF3L_CRQ" target="_blank">
+    <img style="border-radius:8px;" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="35" style="margin-right: 4px">
+  </a>
+  <img width="12" />
+  <a href="https://dribbble.com/Rauliqbal" target="_blank">
+  <img style="border-radius:8px;" src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" height="35" style="margin-right: 4px">
+  </a>
 </div>
 
 ###
