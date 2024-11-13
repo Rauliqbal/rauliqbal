@@ -78,7 +78,7 @@
 ### Get In Touch
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/muhamad-raul-iqbal/" target="_blank">
+  <a href="https://www.linkedin.com/in/muhamad-raul-iqbal/" target="_blank">
     <img style="border-radius:8px;" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" style="margin-right: 4px">
   </a>
   <img width="12" />
