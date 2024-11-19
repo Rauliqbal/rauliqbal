@@ -5,7 +5,9 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      title: 'Rauliqbal - Front-End Developer and UI Designer',
       link: [
+        {rel: 'canonical' , href: "https://rauliqbal.my.id/"},
         { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         { rel: "preconnect", href: "https://fonts.gstatic.com" },
@@ -26,9 +28,23 @@ export default defineNuxtConfig({
           content:
             "Rauliqbal, rauliqbal, Raul iqbal, raul iqbal, portfolio front end, ui designer , freelance frontend",
         },
+        {
+          name: "description",
+          content:
+            "I am a Front End Developer and UI Designer, I am used to making projects with React JS, Vue JS and Tailwind CSS",
+        },
+        { property: "og:title", content: "Rauliqbal - FrontEnd Developer" },
+        {
+          property: "og:description",
+          content:
+            "I am a Front End Developer and UI Designer, I am used to making projects with React JS, Vue JS and Tailwind CSS",
+        },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: "https://rauliqbal.my.id/" },
+        { property: "og:locale", content: "en_US" },
+        { property: "og:image", content: "/favicon.png" },
       ],
     },
-
     pageTransition: { name: "page", mode: "out-in" },
   },
   css: ["~/assets/css/main.css"],
