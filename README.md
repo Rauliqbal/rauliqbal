@@ -1,6 +1,6 @@
 # 👋🏻 Hey What's up?
 
-### `👨🏻‍💻 I'm Rauliqbal a Front-EndDeveloper and UI Designer`
+### `👨🏻‍💻 I'm Rauliqbal a Front-End Developer and UI Designer`
 
 🚀 Passionate front-end developer and UI/UX designer who has a passion for building responsive, attractive, and user-friendly web applications.
 
