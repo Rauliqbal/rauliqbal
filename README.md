@@ -15,9 +15,9 @@
 
 ┌──┤ WHOAMI ├─────────▰▰▰
 │
-├─》 😁 Muhamad Raul Iqbal
+├─》 🙌🏻 hello Im' Muhamad Raul Iqbal based Indonesian
 ├─》 🚀 Front-end developer and UI/UX designer
-├─》 🙌🏻 want to make something great? contact me
+├─》 🙌🏻 want to make something great? <a href="https://rauliqbal.my.id/contact">contact me</a>
 ├─》 💾 <a href="https://azurakit.vercel.app/">Free Website Templates</a>
 ├─》 🖥️ See my portfolio <a href="https://rauliqbal.my.id">website</a>
 ├─》 ⚡ I’m currently working as Front-End Developer
@@ -35,7 +35,7 @@
 
 ┌──┤ PROJECTS ├───────▰▰▰
 │
-├─》 IRATOON - Streaming Anime and Movie
+├─》 <a href="https://iratoon.vercel.app"> IRATOON - Streaming Anime and Movie</a> 
 ├─》 <a href="https://azurakit.vercel.app/">AzuraKIT - Web Template and Design Resources</a>
 ├─》 <a href="http://azuracoder.vercel.app/articles/">AzuraCoder - Blog</a>
 ├─》 <a href="https://www.ngajee.web.id/">Ngajee - Al Quran Indonesia</a>
