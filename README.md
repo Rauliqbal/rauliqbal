@@ -1,18 +1,8 @@
-<pre>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠳⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣀⡴⢧⣀⠀⠀⣀⣠⠤⠤⠤⠤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠘⠏⢀⡴⠊⠁⠀⠀⠀⠀⠀⠀⠈⠙⠦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣰⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢶⣶⣒⣶⠦⣤⣀⠀⠀
-⠀⠀⠀⠀⠀⠀⢀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣟⠲⡌⠙⢦⠈⢧⠀
-⠀⠀⠀⣠⢴⡾⢟⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡴⢃⡠⠋⣠⠋⠀
-⠐⠀⠞⣱⠋⢰⠁⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⠤⢖⣋⡥⢖⣫⠔⠋⠀⠀⠀
-⠈⠠⡀⠹⢤⣈⣙⠚⠶⠤⠤⠤⠴⠶⣒⣒⣚⣩⠭⢵⣒⣻⠭⢖⠏⠁⢀⣀⠀⠀⠀⠀
-⠠⠀⠈⠓⠒⠦⠭⠭⠭⣭⠭⠭⠭⠭⠿⠓⠒⠛⠉⠉⠀⠀⣠⠏⠀⠀⠘⠞⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⢤⣀⠀⠀⠀⠀⠀⠀⣀⡤⠞⠁⠀⣰⣆⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠘⠿⠀⠀⠀⠀⠀⠈⠉⠙⠒⠒⠛⠉⠁⠀⠀⠀⠉⢳⡞⠉⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+<div align="center">
+<img height="200" src="./IamProgrammerEnglish.png" />
+</div>
 
+<pre>
 ┌──┤ WHOAMI ├─────────▰▰▰
 │
 ├─》 🙌🏻 hello Im' Muhamad Raul Iqbal based Indonesian
@@ -35,14 +25,13 @@
 
 ┌──┤ PROJECTS ├───────▰▰▰
 │
-├─》 <a href="https://iratoon.vercel.app"> IRATOON - Streaming Anime and Movie</a> 
-├─》 <a href="https://azurakit.vercel.app/">AzuraKIT - Web Template and Design Resources</a>
-├─》 <a href="http://azuracoder.vercel.app/articles/">AzuraCoder - Blog</a>
-├─》 <a href="https://www.ngajee.web.id/">Ngajee - Al Quran Indonesia</a>
-├─》 <a href="https://www.vensys.co.id/">Venturium System Indonesia</a>
-├─》 <a href="https://nightcoder-website.vercel.app/">NightCoder Community</a>
-├─》 <a href="https://dokumo.id/">Dokumo AI Cloud</a>
-├─》 <a href="https://adhijayapersada.vercel.app/">Adhi Jaya Persada - Fabrikasi Baja</a>
+├─》 🎬 <a href="https://iratoon.vercel.app">IRATOON - Streaming Anime and Movie</a> 
+├─》 ✍️ <a href="http://azuracoder.vercel.app/articles/">AzuraCoder - Blog</a>
+├─》 📖 <a href="https://www.ngajee.web.id/">Ngajee - Al Quran Indonesia</a>
+├─》 🏢 <a href="https://www.vensys.co.id/">Venturium System Indonesia</a>
+├─》 👨‍💻 <a href="https://nightcoder-website.vercel.app/">NightCoder Community</a>
+├─》 ☁️ <a href="https://dokumo.id/">Dokumo AI Cloud</a>
+├─》 🏗️ <a href="https://adhijayapersada.vercel.app/">Adhi Jaya Persada - Fabrikasi Baja</a>
 │
 └───────────────────────────────▰▰▰
 </pre>
