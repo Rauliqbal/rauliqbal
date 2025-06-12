@@ -36,6 +36,23 @@
 │
 └───────────────────────────────▰▰▰
 </pre>
+
+###
+
+<h3 align="left">🔥   My Stats :</h3>
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Rauliqbal&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rauliqbal/Rauliqbal/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rauliqbal/Rauliqbal/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Rauliqbal/Rauliqbal/output/pacman-contribution-graph.svg">
+</picture>
+
 <div align="center">
 <img height="200" src="./GitHub.png" />
 </div>
