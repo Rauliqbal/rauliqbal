@@ -1,6 +1,7 @@
 <div align="center">
-<img height="200" src="./banner.png" />
+<img src="./banner.png" />
 </div>
+
 
 <pre>
 ┌──┤ WHOAMI ├─────────▰▰▰
