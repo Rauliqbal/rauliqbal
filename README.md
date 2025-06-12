@@ -38,7 +38,7 @@
 </pre>
 
 <div align="center">
-<img src="./pacman-contributions.svg" />
+<img src="https://pacman.abozanona.me?username=Rauliqbal" />
 </div>
 
 
