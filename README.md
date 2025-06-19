@@ -1,7 +1,7 @@
 <div align="center">
 <img src="./banner.png" />
+<img src="./pacman-contributions.svg" />
 </div>
-
 
 <pre>
 ┌──┤ WHOAMI ├─────────▰▰▰
@@ -38,16 +38,7 @@
 </pre>
 
 <div align="center">
-<img src="./pacman-contributions.svg" />
-</div>
-
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Rauliqbal&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
-
-
-
-<div align="center">
+<img src="https://nirzak-streak-stats.vercel.app/?user=Rauliqbal&theme=nord&hide_border=false" />
 <img height="200" src="./GitHub.png" />
+
 </div>
