@@ -1,6 +1,5 @@
 <div align="center">
 <img src="./banner.png" />
-<img src="./pacman-contributions.svg" />
 </div>
 
 <pre>
