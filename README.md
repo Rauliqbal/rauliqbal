@@ -1,16 +1,17 @@
 <div align="center">
-<img src="./banner.png" />
+[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
+<!-- <img src="./banner.png" /> -->
 </div>
 
 <pre>
 ┌──┤ WHOAMI ├─────────▰▰▰
 │
 ├─》 🙌🏻 hello Im' Muhamad Raul Iqbal based Indonesian
-├─》 🚀 Front-end developer and UI/UX designer
+├─》 🚀 Full-Stack Developer and UI/UX Designer
 ├─》 🙌🏻 want to make something great? <a href="https://rauliqbal.my.id/contact">contact me</a>
 ├─》 💾 <a href="https://azurakit.vercel.app/">Free Website Templates</a>
 ├─》 🖥️ See my portfolio <a href="https://rauliqbal.my.id">website</a>
-├─》 ⚡ I’m currently working as Front-End Developer
+├─》 ⚡ I’m currently working as Application Development
 │
 └───────────────────────────────▰▰▰
 
@@ -36,7 +37,7 @@
 └───────────────────────────────▰▰▰
 </pre>
 
-[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
+
 
 <div align="center">
 <img src="https://nirzak-streak-stats.vercel.app/?user=Rauliqbal&theme=nord&hide_border=false" />
