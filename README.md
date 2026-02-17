@@ -1,6 +1,5 @@
-[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
 <div align="center">
-<!-- <img src="./banner.png" /> -->
+<img src="./banner.png" />
 </div>
 
 <pre>
@@ -38,7 +37,7 @@
 </pre>
 
 
-
+[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
 <div align="center">
 <img src="https://nirzak-streak-stats.vercel.app/?user=Rauliqbal&theme=nord&hide_border=false" />
 <img height="200" src="./GitHub.png" />
