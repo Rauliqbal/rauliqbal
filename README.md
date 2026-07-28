@@ -2,9 +2,7 @@
 <img src="./banner.png" />
 </div>
 
-<div align="center">
-  “Striving to write clean code, build scalable systems, and bridge tech with aesthetic design.” ⚡
-</div>
+
 
 <h1 align="center">Hi 👋, I'm Raul Iqbal a Software Engineer</h1>
 
@@ -87,6 +85,6 @@ Beyond writing code, I love breaking down complex architectures, modern framewor
 
 [![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
 <div align="center">
-<img src="https://nirzak-streak-stats.vercel.app/?user=Rauliqbal&theme=nord&hide_border=false" />
+<img src="https://github-readme-stats.shion.dev/api?username=Rauliqbal&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false" />
 <img height="200" src="./GitHub.png" />
 </div>
