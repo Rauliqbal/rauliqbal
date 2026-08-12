@@ -103,5 +103,10 @@ Beyond writing code, I love breaking down complex architectures, modern framewor
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <img src="./space-shooter.gif" />
+  </picture>
+</p>
 
 
