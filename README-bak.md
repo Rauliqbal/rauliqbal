@@ -1,9 +1,7 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-dark" alt="Rauliqbal hero section" />
-  </picture>
-</p>
+<div align="center">
+<img src="./banner.png" />
+</div>
+
 
 
 <h1 align="center">Hi 👋, I'm Raul Iqbal a Software Engineer</h1>
@@ -70,10 +68,6 @@ With a strong focus on the JavaScript/TypeScript ecosystem, I bridge the gap bet
 
 ---
 
-[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
-
----
-
 ### 🚀 Featured Projects
 - 🐙 <a href="https://git-persona.vercel.app">GitPersona - Git Profile Generator Readme</a>
 - 🧩 <a href="https://niceui.my.id">Nice UI - Tailwind CSS Component Library</a>
@@ -89,19 +83,8 @@ Beyond writing code, I love breaking down complex architectures, modern framewor
 
 ---
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-dark" alt="Rauliqbal stats section" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-dark" alt="Rauliqbal stack section" />
-  </picture>
-</p>
-
-
-
+[![An image of @rauliqbal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/rauliqbal)](https://holopin.io/@rauliqbal)
+<div align="center">
+<img src="https://github-readme-stats.shion.dev/api?username=Rauliqbal&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false" />
+<img height="200" src="./GitHub.png" />
+</div>
