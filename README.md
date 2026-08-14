@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-dark" alt="Rauliqbal hero section" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=Rauliqbal&theme=github-light" alt="Rauliqbal hero section" />
   </picture>
 </p>
 
@@ -91,15 +91,15 @@ Beyond writing code, I love breaking down complex architectures, modern framewor
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-dark" alt="Rauliqbal stats section" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=Rauliqbal&theme=github-light" alt="Rauliqbal stats section" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-dark&mode=dark" />
-    <img src="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-dark" alt="Rauliqbal stack section" />
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=Rauliqbal&theme=github-light" alt="Rauliqbal stack section" />
   </picture>
 </p>
 
